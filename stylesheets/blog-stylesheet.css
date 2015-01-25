@@ -1,1 +1,24 @@
-<link rel="stylesheet" type="text/css" href="emilyboer.github.io/blog/blog-template.htmlyour-stylesheet-link-here.css">
+<link rel="stylesheet" type="text/css" href="emilyboer.github.io/blog/blog-template.html">
+
+h1 {
+text-align:center;
+font-family: helvetica;
+}
+
+h2 {
+text-align:center;
+font-family: helvetica;
+font-size: 16px;
+}
+
+h4 {
+text-align:center;
+font-family: helvetica;
+font-size: 12px
+}
+
+p {
+font-family: helvetica;
+font-size: 12px
+text-align:center;
+}

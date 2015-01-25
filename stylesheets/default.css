@@ -1,5 +1,5 @@
 
-#title{
+h1{
   font-size:60px;
   text-align:left;
   font-family:helvetica;
@@ -8,45 +8,29 @@
   margin-top:15px;
 }
 
-div{
+li{
   text-align:right;
   margin-right:10px;
   margin-top:15px;
   font-color:black;
   a:hover:#69DB87;
   font-family:helvetica;
+  font-size:12px;
     }
 
-img {
-text-align:center;
-}
-
-.about {
-font-color:black;
-hover:#69DB87
-}
-
-.blog{
-font-color:black;
-hover:#69DB87
-}
-
-.projects{
-font-color:black;
-hover:#69DB87
-}
-
-td {
-font-size:70px;
 }
 
 .about{
+    font-color:black;
+    hover:#69DB87
     position:fixed;
     margin-top:50px;
     margin-left:210px;
     margin-bottom:10px;
     }
 .blog{
+    font-color:black;
+    hover:#69DB87
     position:fixed;
     margin-top:50px;
     margin-left:110px;
@@ -54,24 +38,27 @@ font-size:70px;
     }
 
 .projects{
+    font-color:black;
+    hover:#69DB87
     position:fixed;
     margin-top:50px;
     margin-left:10px;
     margin-bottom:10px;
     }
 
-p {
+footer{
 font-color:black;
 text-align: center;
 font-size: 8px;
 font-family:helvetica;
 }
 
-a {
+a{
 text-decoration:none;
 }
 
-img {
+img{
 width:1123px;
 height:614px;
+text-align:center;
 }

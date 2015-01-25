@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="emilyboer.github.io/index.html">
 
 #title{
-  font-size:50px;
+  font-size:60px;
   text-align:left;
   font-family:Roboto Condensed;
   text-color:black;
@@ -18,4 +18,22 @@ div{
   font-family:Roboto Condensed;
     }
 
+img {
+height:100px;
+width:500px;
+}
 
+.about {
+text-color:black;
+hover:#69DB87
+}
+
+.blog{
+text-color:black;
+hover:#69DB87
+}
+
+.projects{
+text-color:black;
+hover:#69DB87
+}

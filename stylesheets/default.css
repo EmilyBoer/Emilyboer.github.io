@@ -19,8 +19,7 @@ div{
     }
 
 img {
-height:100px;
-width:500px;
+text-align: centered;
 }
 
 .about {
@@ -36,4 +35,8 @@ hover:#69DB87
 .projects{
 text-color:black;
 hover:#69DB87
+}
+
+td {
+font-size:70px;
 }

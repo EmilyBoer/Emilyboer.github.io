@@ -66,6 +66,8 @@ font-color:black;
 text-align: center;
 font-size: 8px;
 font-family:helvetica;
+}
 
-
+a {
+text-decoration:none;
 }

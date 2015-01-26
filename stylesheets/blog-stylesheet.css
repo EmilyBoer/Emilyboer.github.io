@@ -19,9 +19,13 @@ font-size: 12px
 }
 
 p {
-display:inline-block;
-right-margin:100px;
 font-family: helvetica;
 font-size: 14px
+}
+
+blockquote p {
+left-margin:40px;
+right-margin:40px;
+top-margin:20;
 }
 

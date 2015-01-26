@@ -4,28 +4,33 @@ h1 {
 color:#69DB87;
 text-align:center;
 font-family: helvetica;
+font-size:40px;
+text-decoration: underline;
 }
 
 h2 {
-text-align:center;
+text-align:left;
 font-family: helvetica;
-font-size: 16px;
+font-size: 50px;
+margin-top:15px;
 }
 
 h4 {
+margin-top: -20px;
 text-align:center;
 font-family: helvetica;
 font-size: 12px
 }
 
 p {
-font-family: helvetica;
+font-family: Georgia;
 font-size: 14px
 }
 
-blockquote p {
-left-margin:40px;
-right-margin:40px;
-top-margin:20;
+blockquote p{
+margin-left:25%;
+margin-right:25%;
+margin-top:20;
+font-size: 16px;
 }
 

@@ -10,7 +10,7 @@ h1{
 
 .sm{
   float:right;
-  display:inline-block;
+  display:inline;
   margin-right:10px;
   margin-top:10px;
   color:black;
@@ -34,15 +34,15 @@ color:#69DB87;
 
 .blog{
     position:absolute;
-    display:inline-block;
+    display:inline;
     font-color:black;
     margin-bottom:50px;
     font-size:50px;
     }
 
 .projects{
-    position:fixed;
-    display:inline-block;
+    position:absolute;
+    display:inline;
     font-color:black;
     margin-right:300px;
     font-size:50px;
@@ -65,3 +65,4 @@ width:1123px;
 height:614px;
 margin-left:120px;
 }
+

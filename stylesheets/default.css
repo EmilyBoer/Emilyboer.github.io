@@ -99,11 +99,11 @@ color:#69DB87
     }
 
 footer{
-bottom:0px;
-font-color:black;
+font-color:gray;
 text-align:center;
-font-size: 8px;
+width: 100%;
 font-family: Helvetica;
+font-size: 10px;
 }
 
 a{
@@ -121,6 +121,7 @@ display:inline;
 height:474px;
 width: 207.75px;
 margin-left:50px;
+margin-bottom:50px;
 }
 
 .series1{
@@ -128,4 +129,5 @@ display:inline;
 height:474px;
 width: 207.75px;
 margin-left:140px;
+margin-bottom:50px;
 }

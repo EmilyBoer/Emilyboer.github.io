@@ -13,8 +13,6 @@ h2 {
 text-align:left;
 font-family: helvetica;
 font-size: 50px;
-margin-top:15px;
-
 }
 
 h4 {
@@ -133,12 +131,16 @@ margin-left:120px;
 }
 
 #kitchen{
+position:absolute;
+display:inline;
 margin-bottom:20px;
 margin-left: 30%;
 margin-right: 30%
 }
 
 #git{
+position:absolute;
+display:inline;
 margin-bottom:20px;
 margin-left: 400px;
 margin-top:-15px;

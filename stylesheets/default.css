@@ -115,6 +115,8 @@ margin-left:120px;
 }
 
 .kitchen{
+position:absolute;
+display:inline;
 margin-bottom:20px;
 margin-left: 30%;
 margin-right: 30%

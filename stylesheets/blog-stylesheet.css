@@ -132,3 +132,10 @@ color:black;
 img{
 margin-left:120px;
 }
+
+footer{
+    font-color:gray;
+    text-align:center;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 10px;

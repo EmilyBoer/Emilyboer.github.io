@@ -1,39 +1,37 @@
 
 
-h1 {
-color:#69DB87;
-text-align:center;
-font-family: helvetica;
-font-size:40px;
-margin-top: 130px;
-text-decoration: underline;
-}
+h1{
+  color:#69DB87;
+  text-align:center;
+  font-family: helvetica;
+  font-size:40px;
+  margin-top: 130px;
+  text-decoration: underline;
+  }
 
-h2 {
-text-align:left;
-font-family: helvetica;
-font-size: 50px;
-}
+h2{
+  text-align:left;
+  font-family:helvetica;
+  font-size: 50px;
+  }
 
-h4 {
-margin-top: -20px;
-margin-left: 310px;
-margin-bottom: -10px;
-font-family: helvetica;
-font-size: 14px
-}
+h4{
+   text-align:center;
+  font-family: helvetica;
+  font-size: 14px
+  }
 
-p {
-font-family: Georgia;
-font-size: 14px
-}
+p{
+  font-family: Georgia;
+  font-size: 14px
+  }
 
 blockquote p{
-margin-left:25%;
-margin-right:25%;
-margin-top:20px;
-font-size: 16px;
-}
+  margin-left:25%;
+  margin-right:25%;
+  margin-top:20px;
+  font-size: 16px;
+  }
 
 .sm1{
   position:absolute;
@@ -69,20 +67,20 @@ font-size: 16px;
     }
 
 .sm1 a:hover{
-color:#69DB87;
-}
+  color:#69DB87;
+  }
 .sm2 a:hover{
-color:#69DB87;
-}
+  color:#69DB87;
+  }
 .sm3 a:hover{
-color:#69DB87;
-}
+  color:#69DB87;
+  }
 .home a:hover{
-color:#69DB87
-}
+  color:#69DB87
+  }
 .blog a:hover{
-color:#69DB87
-}
+  color:#69DB87
+  }
 
 .home{
     position:absolute;
@@ -121,7 +119,7 @@ color:#69DB87
     font-size:50px;
     }
 
-  a{
+a{
 text-decoration:none;
 color:black;
 }
@@ -130,20 +128,16 @@ color:black;
 margin-left:120px;
 }
 
-#kitchen{
-position:absolute;
-display:inline;
-margin-bottom:20px;
-margin-left: 30%;
-margin-right: 30%
-}
-
-#git{
+.kitchen{
 position:absolute;
 display:inline;
 margin-bottom:20px;
 margin-left: 400px;
-margin-top:-15px;
+
+}
+
+.git{
+  text-align: center;
 }
 
 footer{
@@ -152,5 +146,4 @@ footer{
     width: 100%;
     font-family: Helvetica;
     font-size: 10px;
-
 

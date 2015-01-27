@@ -19,9 +19,10 @@ margin-top:15px;
 
 h4 {
 margin-top: -20px;
-text-align:center;
+margin-left: 310px;
+margin-bottom: -10px;
 font-family: helvetica;
-font-size: 12px
+font-size: 14px
 }
 
 p {
@@ -69,21 +70,19 @@ font-size: 16px;
   text-decoration:none;
     }
 
-    .sm1 a:hover {
+.sm1 a:hover{
 color:#69DB87;
 }
-.sm2 a:hover {
+.sm2 a:hover{
 color:#69DB87;
 }
-.sm3 a:hover {
+.sm3 a:hover{
 color:#69DB87;
 }
-
-.home a:hover {
+.home a:hover{
 color:#69DB87
 }
-
-.blog a:hover {
+.blog a:hover{
 color:#69DB87
 }
 
@@ -129,8 +128,19 @@ text-decoration:none;
 color:black;
 }
 
-img{
+#logo{
 margin-left:120px;
+}
+
+.kitchen{
+margin-bottom:50px;
+margin-left: 460px;
+}
+
+.git{
+margin-bottom:20px;
+margin-left: 400px;
+margin-top:-15px;
 }
 
 footer{
@@ -139,3 +149,5 @@ footer{
     width: 100%;
     font-family: Helvetica;
     font-size: 10px;
+
+

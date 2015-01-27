@@ -42,7 +42,6 @@ h1{
     }
 
 
-
 .sm1 a:hover {
 color:#69DB87;
 }
@@ -111,8 +110,18 @@ text-decoration:none;
 color:black;
 }
 
-img{
+#logo{
 margin-left:120px;
+}
+
+.kitchen{
+margin-bottom:20px;
+margin-left: 460px;
+}
+
+.git{
+margin-bottom:20px;
+margin-left: 460px;
 }
 
 .series {

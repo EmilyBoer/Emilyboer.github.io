@@ -12,10 +12,10 @@ h4{
 margin-top: -30px;
 }
 
-.sm1{
-  position:absolute;
-  display:inline;
+#sm1{
   margin-left:900px;
+  position:absolute;
+  display:inline;
   margin-top:-70px;
   color:black;
   font-family: Georgia;
@@ -23,21 +23,21 @@ margin-top: -30px;
   text-decoration:none;
     }
 
-    .sm2{
-  position:absolute;
-  display:inline;
+.sm2{
   margin-left:970px;
-  margin-top:-70px;
-  color:black;
-  font-family: Georgia;
-  font-size:12px;
-  text-decoration:none;
-    }
-
- .sm3{
   position:absolute;
   display:inline;
+  margin-top:-70px;
+  color:black;
+  font-family: Georgia;
+  font-size:12px;
+  text-decoration:none;
+    }
+
+.sm3{
   margin-left:1040px;
+  position:absolute;
+  display:inline;
   margin-top:-70px;
   color:black;
   font-family: Georgia;
@@ -46,7 +46,7 @@ margin-top: -30px;
     }
 
 
-.sm1 a:hover {
+#sm1 a:hover {
 color:#69DB87;
 }
 .sm2 a:hover {
@@ -87,7 +87,7 @@ color:#69DB87
     display:inline;
     font-color:black;
     margin-left:630px;
-    margin-bottom:50px;
+    margin-top:-5px;
     font-size:50px;
     font-family:Georgia;
     }

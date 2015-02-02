@@ -9,27 +9,22 @@ h1{
   text-decoration: underline;
   }
 
-h2{
-  text-align:left;
-  font-family:Georgia;
-  font-size: 50px;
-  }
-
-h3{
-  text-align:left;
-  font-family:Georgia
-  font-size: 25px;
-
 h4{
-   text-align:center;
-  font-family: Georgia;
-  font-size: 14px
+  text-indent: 350px;
+  font-family:Georgia;
+  font-size: 15px;
   }
+
+  h3{
+ text-align:center;
+  font-family:Georgia;
+  font-size: 25px;
+}
 
 p{
   font-family: Georgia;
   font-size: 14px
-  }
+}
 
 blockquote p{
   margin-left:25%;
@@ -38,7 +33,7 @@ blockquote p{
   font-size: 16px;
   }
 
-.sm1{
+#sm1{
   position:absolute;
   display:inline;
   margin-left:900px;
@@ -49,7 +44,7 @@ blockquote p{
   text-decoration:none;
     }
 
-    .sm2{
+  .sm2{
   position:absolute;
   display:inline;
   margin-left:970px;

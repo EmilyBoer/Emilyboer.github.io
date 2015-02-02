@@ -1,1 +1,3 @@
-puts  60 * 24 * 365 * 10
+puts "I\'m busy, what do you want?"
+request = gets.chomp
+puts 'You want ' + request +' rs!? No way, you fired'

@@ -15,10 +15,10 @@ h4{
   font-size: 15px;
   }
 
-  h3{
+h3{
  text-align:center;
-  font-family:Georgia;
-  font-size: 25px;
+ font-family:Georgia;
+ font-size: 25px;
 }
 
 p{
@@ -33,7 +33,7 @@ blockquote p{
   font-size: 16px;
   }
 
-#sm1{
+.sm1{
   position:absolute;
   display:inline;
   margin-left:900px;
@@ -44,7 +44,7 @@ blockquote p{
   text-decoration:none;
     }
 
-  .sm2{
+.sm2{
   position:absolute;
   display:inline;
   margin-left:970px;
@@ -55,7 +55,7 @@ blockquote p{
   text-decoration:none;
     }
 
- .sm3{
+.sm3{
   position:absolute;
   display:inline;
   margin-left:1040px;

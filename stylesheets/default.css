@@ -1,3 +1,23 @@
+/*BODY*/
+
+
+
+/*NAV BAR*/
+.navbar{
+  min-height:100px;
+  border:none;
+}
+
+.navbar-inverse{
+  background-image:none;
+  background-color: white;
+}
+
+
+
+
+
+/*OLD CSS*/
 
 h1{
   font-size:60px;
@@ -23,16 +43,6 @@ h4{
   text-decoration:none;
 }
 
-.sm2{
-  margin-left:970px;
-  position:absolute;
-  display:inline;
-  margin-top:-70px;
-  color:black;
-  font-family: 'Architects Daughter';
-  font-size:12px;
-  text-decoration:none;
-}
 
 .sm3{
   margin-left:1040px;
@@ -55,14 +65,9 @@ h4{
   color:#69DB87;
 }
 
-a{
-  text-decoration:none;
-  color:black;
-}
 
-#logo{
-  margin-left:120px;
-}
+
+
 
 .home{
   font-family: 'Architects Daughter';
@@ -104,52 +109,15 @@ a{
   font-size:50px;
 }
 
-.series {
-  margin-top:100px;
-  display:inline-block;
-  height:474px;
-  width: 207.75px;
-  margin-left:50px;
-  margin-bottom:50px;
-  margin-right: auto;
-}
-
-.series1{
-  display:inline-block;
-  height:474px;
-  width: 207.75px;
-  margin-left:200px;
-  margin-bottom:50px;
-}
 
 
-nav ul {
-  list-style-type: none;
-  margin-left: 300px;
-  padding: 0;
-  margin-top: -70px;
-}
 
-li {
-  margin-left: 40px;
-  display:inline;
-  color:black;
-  font-size:35px;
-  font-family: 'Architects Daughter';
-}
+
+
 
 nav a:hover{
   color:#69DB87;
 }
 
-footer {
-  font-family: 'Architects Daughter';
-  text-align: center;
-  font-size: 11px;
-  color: gray;
-}
 
-footer span {
-  margin-left: 20px;
-}
 

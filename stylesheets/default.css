@@ -2,14 +2,14 @@
 h1{
   font-size:60px;
   text-align:left;
-  font-family: Georgia;
+  font-family: 'Architects Daughter';
   font-color:black;
   margin-left:15px;
   margin-top:15px;
 }
 
 h4{
-margin-top: -30px;
+  margin-top: -30px;
 }
 
 .sm1{
@@ -18,10 +18,10 @@ margin-top: -30px;
   display:inline;
   margin-top:-70px;
   color:black;
-  font-family: Georgia;
+  font-family: 'Architects Daughter';
   font-size:12px;
   text-decoration:none;
-    }
+}
 
 .sm2{
   margin-left:970px;
@@ -29,10 +29,10 @@ margin-top: -30px;
   display:inline;
   margin-top:-70px;
   color:black;
-  font-family: Georgia;
+  font-family: 'Architects Daughter';
   font-size:12px;
   text-decoration:none;
-    }
+}
 
 .sm3{
   margin-left:1040px;
@@ -40,110 +40,116 @@ margin-top: -30px;
   display:inline;
   margin-top:-70px;
   color:black;
-  font-family: Georgia;
+  font-family: 'Architects Daughter';
   font-size:12px;
   text-decoration:none;
-    }
-
+}
 
 .sm1 a:hover {
-color:#69DB87;
+  color:#69DB87;
 }
 .sm2 a:hover {
-color:#69DB87;
+  color:#69DB87;
 }
 .sm3 a:hover {
-color:#69DB87;
-}
-
-.home a:hover{
-color:#69DB87
-}
-
-.blog a:hover{
-color:#69DB87
-}
-
-.home{
-    position:absolute;
-    display:inline;
-    font-color:black;
-    margin-left:220px;
-    margin-bottom:10px;
-    font-size:50px;
-    }
-
-.about{
-    position:absolute;
-    display:inline;
-    font-color:black;
-    margin-left:425px;
-    margin-bottom:10px;
-    font-size:50px;
-    }
-
-.blog{
-    position:absolute;
-    display:inline;
-    font-color:black;
-    margin-left:630px;
-    margin-top:-5px;
-    font-size:50px;
-    font-family:Georgia;
-    }
-
-.projects{
-    position:absolute;
-    display:inline;
-    font-color:black;
-    margin-left:835px;
-    margin-bottom:10px;
-    font-size:50px;
-    }
-
-footer{
-    font-color:gray;
-    text-align:center;
-    width: 100%;
-    font-family: Helvetica;
-    font-size: 10px;
+  color:#69DB87;
 }
 
 a{
-text-decoration:none;
-color:black;
+  text-decoration:none;
+  color:black;
 }
 
 #logo{
-margin-left:120px;
+  margin-left:120px;
 }
 
-.kitchen{
-position:absolute;
-display:inline;
-margin-bottom:20px;
-margin-left: 30%;
-margin-right: 30%
+.home{
+  font-family: 'Architects Daughter';
+  position:absolute;
+  display:inline;
+  font-color:black;
+  margin-left:220px;
+  margin-bottom:10px;
+  font-size:50px;
 }
 
-.git{
-margin-bottom:20px;
-margin-left: 460px;
+.about{
+  font-family: 'Architects Daughter';
+  position:absolute;
+  display:inline;
+  font-color:black;
+  margin-left:425px;
+  margin-bottom:10px;
+  font-size:50px;
+}
+
+.blog{
+  position:absolute;
+  display:inline;
+  font-color:black;
+  margin-left:630px;
+  margin-top:-5px;
+  font-size:50px;
+  font-family: 'Architects Daughter';
+}
+
+.projects{
+  font-family: 'Architects Daughter';
+  position:absolute;
+  display:inline;
+  font-color:black;
+  margin-left:835px;
+  margin-bottom:10px;
+  font-size:50px;
 }
 
 .series {
-margin-top:100px;
-display:inline;
-height:474px;
-width: 207.75px;
-margin-left:50px;
-margin-bottom:50px;
+  margin-top:100px;
+  display:inline-block;
+  height:474px;
+  width: 207.75px;
+  margin-left:50px;
+  margin-bottom:50px;
+  margin-right: auto;
 }
 
 .series1{
-display:inline;
-height:474px;
-width: 207.75px;
-margin-left:140px;
-margin-bottom:50px;
+  display:inline-block;
+  height:474px;
+  width: 207.75px;
+  margin-left:200px;
+  margin-bottom:50px;
 }
+
+
+nav ul {
+  list-style-type: none;
+  margin-left: 300px;
+  padding: 0;
+  margin-top: -70px;
+}
+
+li {
+  margin-left: 40px;
+  display:inline;
+  color:black;
+  font-size:35px;
+  font-family: 'Architects Daughter';
+}
+
+nav a:hover{
+  color:#69DB87;
+}
+
+footer {
+  font-family: 'Architects Daughter';
+  text-align: center;
+  font-size: 11px;
+  color: gray;
+}
+
+footer span {
+  margin-left: 20px;
+}
+

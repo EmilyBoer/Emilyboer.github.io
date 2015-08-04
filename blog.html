@@ -2,152 +2,157 @@
 <html>
 <head>
   <title>EB Development Blog</title>
-<link type="text/css" rel="stylesheet" href="stylesheets/blog-stylesheet.css"/>
+  <link type="text/css" rel="stylesheet" href="stylesheets/blog-stylesheet.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <img id="logo"src="imgs/eb.png" alt="logo" width="85" height="85">
-<ul>
-      <li class="sm1"><a href="www.facebook.com">Facebook</a></li>
-      <li class="sm2"><a href="www.linkedin.com">Linkedin</a></li>
-      <li class="sm3"><a href="www.twitter.com">Twitter</a></li>
-</ul>
+  <ul>
+    <li class="sm1"><a href="www.facebook.com">Facebook</a></li>
+    <li class="sm2"><a href="www.linkedin.com">Linkedin</a></li>
+    <li class="sm3"><a href="www.twitter.com">Twitter</a></li>
+  </ul>
 
-<ul>
-  <li class="about"> About </li>
-  <li class="blog" ><a href="blog.html">Blog </li>
-  <li class="projects"> Projects </li>
-  <li class="home"><a href="index.html"> Home </li>
-</ul>
-<body>
-
-
-  <h1>Mean Girls Guide to Classes and Ids</h1>
-  <h4> January 25th, 2015</h4>
-  <blockquote>
-
-
-
-<p>
-  <img class="headphoto" src="imgs/meangirls.png"height="321"width="645">
-</p>
-
-</p>
-<p>
-It's week-2 at Dev Bootcamp and we're diving head first into HTML and CSS. If you aren't familiar, HTML and CSS are source code that work in conjunction to develop and design websites. One is responsible for the nuts and bolts of a web site, HTML, and the other is used to style those nuts and bolts, CSS.
-</p>
-    <p>
-
-I've had the pleasure of working with HTML prior to this week, but CSS was brannnnnnd new to me. While there was a lot to learn, I was able to find some good materials that offered some well-written, detailed explanations--shout out to Code Academy and Reddit University! This is an attempt to make a contribution of my own, one that focuses on ids and classes.
-   </p>
-<p>
-
-Ids and classes can be easy to mix-up or misinterpret. In order to better understand their distinctions and clarify their best use, we're going to take a trip back to high school. Specifically, North Shore High from the movie <em>Mean Girls</em>.
+  <ul>
+    <li class="about"> About </li>
+    <li class="blog" ><a href="blog.html">Blog </li>
+    <li class="projects"> Projects </li>
+    <li class="home"><a href="index.html"> Home </li>
+  </ul>
+  <body>
+    <section>
+  <aside>
+    <ul>
+      <h3> Archive </h3>
+      <li>Link 1</li>
+      <li>Link 2</li>
+    </ul>
+  </aside>
+</section>
 
 
-    </p>
+    <section>
+      <article>
+        <h1>Mean Girls Guide to Classes and Ids</h1>
 
-    <p>
-Caty Heron isn't sure what to make of the student population when she first arrives at North Shore High. To fill her in, her classmate Janis whittles the student body down into different social circles and describes the characteristics they possess.
-</p>
-<p>
-<img src="imgs/Northshoremap.png">
-</p>
-<p>
-Similarly in CSS, one element, or student, may have the same characteristics, or style, as another student. A consolidated way to give these elements the same characteristics in HTML is to assign them a class in CSS.
-</p>
-<p>
-Let’s say our elements are three different students, student's we’d classify as plastics. It looks like this in HTML:
-    </p>
-    <p>
-    <img src="imgs/plastics1.png">
-  </p>
-    <p>
-Now that Regina, Gretchen and Karen are all classified as plastics in HTML, we use CSS to give the plastics universal characteristics. They're called styles:
-    </p>
-    <p>
-    <img src="imgs/plastics.png">
-    </p>
-    <p>
-Notice the period before the element plastics. The period is what tells CSS that “plastics” is a class. CSS would not be able to distinguish word “plastics” as a class without the period.
-    </p>
-    <p>
-A different, and more specific, type of identifier is an id. The id is used in situations where the element is extremely unique, so unique that there is nothing else like it in the entire HTML document. Kind of like in the movie <em>Mean Girls</em>, there is only one protagonist. If there were two Caty Heron's in the movie, it simply wouldn't work. To id the element protagonist in HTML we'd type the following...
-    </p>
-    <p>
-    <img src="imgs/protagonist.png">
-    </p>
+
+        <p>
+          <img class="mg" src="imgs/meangirls.png"height="321"width="645">
+        </p>
+        <h2>March 27th, 2015</h2>
+      </p>
+      <p>
+        It's week-2 at Dev Bootcamp and we're diving head first into HTML and CSS. If you aren't familiar, HTML and CSS are source code that work in conjunction to develop and design websites. One is responsible for the nuts and bolts of a web site, HTML, and the other is used to style those nuts and bolts, CSS.
+      </p>
+      <p>
+
+        I've had the pleasure of working with HTML prior to this week, but CSS was brannnnnnd new to me. While there was a lot to learn, I was able to find some good materials that offered some well-written, detailed explanations--shout out to Code Academy and Reddit University! This is an attempt to make a contribution of my own, one that focuses on ids and classes.
+      </p>
+      <p>
+        Ids and classes can be easy to mix-up or misinterpret. In order to better understand their distinctions and clarify their best use, we're going to take a trip back to high school. Specifically, North Shore High from the movie <em>Mean Girls</em>.
+      </p>
+
+      <p>
+        Caty Heron isn't sure what to make of the student population when she first arrives at North Shore High. To fill her in, her classmate Janis whittles the student body down into different social circles and describes the characteristics they possess.
+      </p>
+      <p>
+        <img class="mg" src="imgs/Northshoremap.png">
+      </p>
+      <p>
+        Similarly in CSS, one element, or student, may have the same characteristics, or style, as another student. A consolidated way to give these elements the same characteristics in HTML is to assign them a class in CSS.
+      </p>
+      <p>
+        Let’s say our elements are three different students, student's we’d classify as plastics. It looks like this in HTML:
+      </p>
+      <p>
+        <img class="mg" src="imgs/plastics1.png">
+      </p>
+      <p>
+        Now that Regina, Gretchen and Karen are all classified as plastics in HTML, we use CSS to give the plastics universal characteristics. They're called styles:
+      </p>
+      <p>
+        <img class="mg" src="imgs/plastics.png">
+      </p>
+      <p>
+        Notice the period before the element plastics. The period is what tells CSS that “plastics” is a class. CSS would not be able to distinguish word “plastics” as a class without the period.
+      </p>
+      <p>
+        A different, and more specific, type of identifier is an id. The id is used in situations where the element is extremely unique, so unique that there is nothing else like it in the entire HTML document. Kind of like in the movie <em>Mean Girls</em>, there is only one protagonist. If there were two Caty Heron's in the movie, it simply wouldn't work. To id the element protagonist in HTML we'd type the following...
+      </p>
+      <p>
+        <img class="mg" src="imgs/protagonist.png">
+      </p>
+      <p>
+        ...and then some addional typing in CSS to style the protagonist id Caty Heron.
+      </p>
+      <p>
+
+        <img class="mg" src="imgs/CatyHeron1.png">
+
+      </p>
+      <p>
+        Notice the id name is prefaced by a #. Remember the period we use to preface a class? The # does the same job as the period; it tells CSS that Caty Heron is the id.
+      </p>
+      <p>
+
+        So there you have it, not too tricky once you take a closer look! Also wayyyy less complicated than high school. Cheers!
+        </p
+      </article>
+
+      <article>
+        <h1>Take Me to The Kitchen</h1>
+        <p>
+          <img class="Kitchen" src="imgs/kitchen2.png"height="408.75"width="676.5">
+        </p>
+        <h2>March 20th, 2015</h2>
+        <p>
+          There are two areas of the restaurant: the dining room and the kitchen. The dining room is where people view the menu, make their order and prepare to experience their meal. They may complain to the waiter if their food is cold. They might fuss if they wait too long for the bill. It’s an enviroment for the consumer mindset.
+        </p>
+        <p>
+         The kitchen, on the other hand, is a big mess. Everyone is moving quickly, focusing on their work. It’s more of a, “outta my way!” type of environment. Everyone is jumping in and getting started. Dev Bootcamp is the kitchen.
+       </p>
+       <p>
+        Prior to starting phase zero, my impression of DBC was that it seems like an intense, fast-paced environment. In addtion to programming knowledge, DBC  promotes vulnerable and open learning. To put it in simpler terms for my family and other “non-technical’ people, I like to use a construction metaphor.
+      </p>
+      <p>
+        “Pretend I’m taking a course to build a house in a very short amount of time,” I say. “Imagine learning all those skills very quickly; skills like how to reading blueprints, designing a sky light or using a nail gun. I'm setting out to acquire all those skills, in a short period of time, and then build my own house. That new house will be my resume."
+      </p>
+      <p>
+        My expectations remain the same after seeing the video. I’d be lying if I said I wasn’t nervous, because I definitely am. Beyond feeling nervous, I think the strongest emotion is that I know what I’m in for: DBC will be fast-paced. I'll have to be vulnerable and expose my weaknesses, and a lot of my ignorance, to my cohort. Most importantly, it's me to get the work done and acquire the skills I need to build my dream house. I’m ready!
+      </p>
+    </article>
+
+
+
+
+
+    <article>
+      <h1>Getting Aquainted with Git</h1>
+      <p>
+        <img class="git" src="imgs/github.png" >
+      </p>
+      <h2>March 20th, 2015</h2>
+      <p>
+        Like how the 'save' function saves work in Micrsoft Word, version control records changes to protect work. Version control also allows developers to take detailed snapshots of their projects so they may go back and review their progress.
+      </p>
+
+      <p>
+        Version control systems are used to give people, often in different locations, access to the same project. Similiar to Dropbox, version control systems digitally store projects and allow people to edit these projects from any computer.
+      </p>
+      <p>
+       If Dropbox is the 'hub' where multiple people can access the same information, Git is your personal computer server. When you are ready to share those changes with the 'hub,' you can 'commit,' or save those changes, then 'push' those changes to the 'hub,' also known as GitHub.
+     </p>
      <p>
-...and then some addional typing in CSS to style the protagonist id Caty Heron.
-    </p>
-    <p>
-
-<img src="imgs/CatyHeron1.png">
-
-    </p>
-    <p>
-Notice the id name is prefaced by a #. Remember the period we use to preface a class? The # does the same job as the period; it tells CSS that Caty Heron is the id.
-    </p>
-    <p>
-
-So there you have it, not too tricky once you take a closer look! Also wayyyy less complicated than high school. Cheers!
-    </p
-
-</blockquote>
-  <h1>Take Me to The Kitchen</h1>
-
-  <blockquote>
-
-    <h4>January, 18th 2015</h4>
-    <p>
-      <img class="Kitchen" src="imgs/kitchen2.png"height="408.75"width="676.5">
-    </p>
-    <p>
-      There are two areas of the restaurant: the dining room and the kitchen. The dining room is where people view the menu, make their order and prepare to experience their meal. They may complain to the waiter if their food is cold. They might fuss if they wait too long for the bill. It’s an enviroment for the consumer mindset.
-    </p>
-    <p>
-       The kitchen, on the other hand, is a big mess. Everyone is moving quickly, focusing on their work. It’s more of a, “outta my way!” type of environment. Everyone is jumping in and getting started. Dev Bootcamp is the kitchen.
-    </p>
-    <p>
-      Prior to starting phase zero, my impression of DBC was that it seems like an intense, fast-paced environment. In addtion to programming knowledge, DBC  promotes vulnerable and open learning. To put it in simpler terms for my family and other “non-technical’ people, I like to use a construction metaphor.
-    </p>
-<p>
-      “Pretend I’m taking a course to build a house in a very short amount of time,” I say. “Imagine learning all those skills very quickly; skills like how to reading blueprints, designing a sky light or using a nail gun. I'm setting out to acquire all those skills, in a short period of time, and then build my own house. That new house will be my resume."
-   </p>
-    <p>
-      My expectations remain the same after seeing the video. I’d be lying if I said I wasn’t nervous, because I definitely am. Beyond feeling nervous, I think the strongest emotion is that I know what I’m in for: DBC will be fast-paced. I'll have to be vulnerable and expose my weaknesses, and a lot of my ignorance, to my cohort. Most importantly, it's me to get the work done and acquire the skills I need to build my dream house. I’m ready!
-    </p>
-
-
-  </blockquote>
-
-
-
-  <blockquote>
-    <h1>Getting Aquainted with Git</h1>
-  <h4>January 16th, 2015</h4>
-
-     <p>
-      <img class="git" src="imgs/github.png" >
-    </p>
-    <p>
-    Like how the 'save' function saves work in Micrsoft Word, version control records changes to protect work. Version control also allows developers to take detailed snapshots of their projects so they may go back and review their progress.
-    </p>
-
-    <p>
-    Version control systems are used to give people, often in different locations, access to the same project. Similiar to Dropbox, version control systems digitally store projects and allow people to edit these projects from any computer.
-    </p>
-    <p>
-     If Dropbox is the 'hub' where multiple people can access the same information, Git is your personal computer server. When you are ready to share those changes with the 'hub,' you can 'commit,' or save those changes, then 'push' those changes to the 'hub,' also known as GitHub.
-    </p>
-    <p>
       Once the changes are pushed to GitHub, your larger network has access to your work. In a team environment, people can continously 'commit,'save, work to Git on their personal computer and then 'push,' share, that work with GitHub for collaborations.
 
       Adding, pushing and committing all happens in real-time, giving you the option to instantly share or access work in GitHub. As a result, multiple people can work of off the most up-to-date version of a project without disrupting eachother's work.
     </p>
-  </blockquote>
+  </article>
+</section>
 
 
-      <!-- copy and paste as many sections as you want to add paragraphs -->
+
+<!-- copy and paste as many sections as you want to add paragraphs -->
 
 </body>
 

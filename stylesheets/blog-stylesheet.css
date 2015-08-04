@@ -1,37 +1,22 @@
 
-
 h1{
   color:#69DB87;
   text-align:center;
-  font-family: helvetica;
-  font-size:40px;
+  font-family: 'Architects Daughter';
+  font-size:30px;
   margin-top: 130px;
   text-decoration: underline;
-  }
-
-h4{
-  text-indent: 350px;
-  font-family:Georgia;
-  font-size: 15px;
-  }
-
-h3{
- text-align:center;
- font-family:Georgia;
- font-size: 25px;
 }
+
 
 p{
-  font-family: Georgia;
-  font-size: 14px
+  font-family: 'Architects Daughter';
+  font-size: 16px
 }
 
-blockquote p{
-  margin-left:25%;
-  margin-right:25%;
-  margin-top:20px;
-  font-size: 16px;
-  }
+img.mg{
+  text-align: center;
+}
 
 .sm1{
   position:absolute;
@@ -39,10 +24,10 @@ blockquote p{
   margin-left:900px;
   margin-top:-70px;
   color:black;
-  font-family: Georgia;
+  font-family: 'Architects Daughter';
   font-size:12px;
   text-decoration:none;
-    }
+}
 
 .sm2{
   position:absolute;
@@ -50,10 +35,10 @@ blockquote p{
   margin-left:970px;
   margin-top:-70px;
   color:black;
-  font-family: Georgia;
+  font-family: 'Architects Daughter';
   font-size:12px;
   text-decoration:none;
-    }
+}
 
 .sm3{
   position:absolute;
@@ -61,79 +46,81 @@ blockquote p{
   margin-left:1040px;
   margin-top:-70px;
   color:black;
-  font-family: Georgia;
+  font-family: 'Architects Daughter';
   font-size:12px;
   text-decoration:none;
-    }
+}
 
 .sm1 a:hover{
   color:#69DB87;
-  }
+}
 .sm2 a:hover{
   color:#69DB87;
-  }
+}
 .sm3 a:hover{
   color:#69DB87;
-  }
+}
 .home a:hover{
   color:#69DB87
-  }
+}
 .blog a:hover{
   color:#69DB87
-  }
-
-.home{
-    position:absolute;
-    display:inline;
-    font-color:black;
-    margin-left:220px;
-    margin-bottom:10px;
-    font-size:50px;
-    }
-
-.about{
-    position:absolute;
-    display:inline;
-    font-color:black;
-    margin-left:425px;
-    margin-bottom:10px;
-    font-size:50px;
-    }
-
-.blog{
-    position:absolute;
-    display:inline;
-    font-color:black;
-    margin-left:630px;
-    margin-top:-5px;
-    font-size:50px;
-    font-family:Georgia;
-    }
-
-.projects{
-    position:absolute;
-    display:inline;
-    font-color:black;
-    margin-left:835px;
-    margin-bottom:10px;
-    font-size:50px;
-    }
+}
 
 a{
-text-decoration:none;
-color:black;
+  text-decoration:none;
+  color:black;
 }
 
 #logo{
-margin-left:120px;
+  margin-left:120px;
+}
+
+.home{
+  font-family: 'Architects Daughter';
+  position:absolute;
+  display:inline;
+  font-color:black;
+  margin-left:220px;
+  margin-bottom:10px;
+  font-size:50px;
+}
+
+.about{
+  font-family: 'Architects Daughter';
+  position:absolute;
+  display:inline;
+  font-color:black;
+  margin-left:425px;
+  margin-bottom:10px;
+  font-size:50px;
+}
+
+.blog{
+  position:absolute;
+  display:inline;
+  font-color:black;
+  margin-left:630px;
+  margin-top:-5px;
+  font-size:50px;
+  font-family: 'Architects Daughter';
+}
+
+.projects{
+  font-family: 'Architects Daughter';
+  position:absolute;
+  display:inline;
+  font-color:black;
+  margin-left:835px;
+  margin-bottom:10px;
+  font-size:50px;
 }
 
 .kitchen{
-position:absolute;
-display:inline;
-margin-bottom:20px;
-margin-left: 400px;
-
+  position:absolute;
+  display:inline;
+  margin-bottom:20px;
+  margin-left: 400px;
 }
 
 .git{
@@ -141,9 +128,58 @@ margin-left: 400px;
 }
 
 footer{
-    font-color:gray;
-    text-align:center;
-    width: 100%;
-    font-family: Helvetica;
-    font-size: 10px;
+  font-color:gray;
+  text-align:center;
+  width: 100%;
+  font-family: 'Architects Daughter';
+  font-size: 10px;
+}
 
+section {
+  margin-left: 175px;
+  margin-right: 600px;
+}
+
+article p{
+  font-size: 16px;
+  overflow: bottom;
+}
+
+section h1 {
+  text-align: center;
+  font-family: 'Architects Daughter';
+}
+
+section h2 {
+  margin-top: 30px;
+  text-align: left;
+  font-size: 16px;
+  font-family: 'Architects Daughter';
+}
+
+aside {
+  font-family: 'Architects Daughter';
+  float:right;
+  margin-right: -500px;
+  margin-top: 60px;
+  font-size: 20px;
+  border: solid 2px #69DB87;
+  padding-left: 80px;
+  padding-right: 100px;
+  padding-bottom: 500px;
+}
+
+aside h3 {
+  font-size: 40px;
+  font-family: 'Architects Daughter';
+}
+
+footer {
+  text-align: center;
+  font-size: 11px;
+  color: gray;
+}
+
+footer span {
+  margin-left: 20px;
+}

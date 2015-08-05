@@ -1,11 +1,25 @@
 /*BODY*/
-
+html {
+  background: url(sf.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 
 /*NAV BAR*/
+#logo{
+  margin-right:120px;
+}
 .navbar{
   min-height:100px;
   border:none;
+}
+
+.navbar-toggle{
+  background-color: black;
+  margin-top: 30px;
 }
 
 .navbar-inverse{
@@ -13,13 +27,22 @@
   background-color: white;
 }
 
+.icon-bar{
+  color:black;
+}
 
+.navbar-inverse .navbar-nav > li > a {
+color:black;
+text-shadow:none;
+margin-top: 20px;
+font-size: 1.9em;
+font-family: 'Architects Daughter';
 
-
+}
 
 /*OLD CSS*/
 
-h1{
+/*h1{
   font-size:60px;
   text-align:left;
   font-family: 'Architects Daughter';
@@ -118,6 +141,5 @@ h4{
 nav a:hover{
   color:#69DB87;
 }
-
-
+*/
 

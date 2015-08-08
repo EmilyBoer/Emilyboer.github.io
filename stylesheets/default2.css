@@ -1,34 +1,59 @@
+html{
+  margin:20px;
+}
+
 /*BODY*/
 
-html {
+#index{
   background-image: url("../sfphoto.jpg");
-}
-
-body  {
-  background-color: transparent;
-}
-
-.nav-row{
-  color:transparent;
 }
 
 
 /*NAV BAR*/
 
+.brand-button{
+  float:left;
+  color:#CC5200;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5em;
+  margin-top: 45px;
+  background-color: transparent;
+  border: none;
+  margin-top: 35px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 270px;
+  margin-left:15px;
+  text-shadow: white .1px .1px;
+}
+
+.brand-button:hover{
+  color:#CC5200;
+}
+
 .nav-buttons{
 float:right;
 color:#CC5200;
 font-family: 'Raleway', sans-serif;
-font-size: 1.9em;
+font-size: 1.6em;
 background-color: transparent;
 border: none;
-margin-top: 45px;
+margin-top: 40px;
 font-weight: bold;
+display: inline-block;
+margin-left: 20px;
 }
 
+.navbar-toggle{
+  background-color: #CC5200;
+  margin-top: 50px;
+}
 
-/*OLD CSS*/
-.nav-buttons:hover {
+.icon-bar{
+  background-color:white;
+}
+
+.nav-buttons:hover{
 background-color: #CC5200;
 color:#B2B299;
 -moz-border-radius-topleft: 10px;
@@ -42,7 +67,7 @@ padding-left: -20px;
 padding-right: -20px;
 }
 
-.bio1, .bio2{
+.bio1, .bio2{ /*<--title and paragraph-->*/
   font-size: 4.8em;
   font-weight: 500;
   color: white;
@@ -63,11 +88,7 @@ padding-right: -20px;
   color:#CC5200;
 }
 
-.logo{
-margin-top: 35px;
-height: 70px;
-width:70px;
-}
+
 
 /*ALL SECTIONS */
 .section-header{
@@ -79,22 +100,18 @@ margin-top: 30px;
 margin-bottom: 60px;
 }
 
-/*PROJECT SECTION*/
+
+/*ABOUT SECTION*/
+
 .about-section{
-background-color: #EBEBE0;
+background-color: #fff;
 margin:0px;
 }
-
-/*.project-container{
-  margin: 10px;
-}*/
-
-
 
 .head-shot{
   max-width: 100%;
   max-height: 100%;
-  margin-bottom:100px;
+  margin-bottom:170px;
 }
 
 .bio{
@@ -102,3 +119,123 @@ margin:0px;
   color:#6C6C50;
   letter-spacing: 2px;
 }
+
+
+/*PROJECT SECTION*/
+
+.project-section{
+background-color: #FFE9BF;
+}
+
+img{
+  margin-left: 30%;
+  margin-bottom: 60px;
+}
+
+.carousel-control.right {
+  background-image:none;
+}
+
+.carousel-control.left{
+  background-image:none;
+}
+
+/*CONTACT SECTION*/
+.contact-section{
+background-color: #6C6C50;
+}
+
+.center{
+text-align: center;
+}
+
+.contact-info{
+  font-size:1.7em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+a.contact-info:hover{
+  text-decoration: none;
+  color:#CC5200;
+
+}
+
+
+
+.border{
+  border-bottom: solid 1px white;
+  margin-top: 60px;
+  margin-bottom: 20px;
+
+}
+
+.glyphicon-envelope{
+  color:white;
+  margin-right:20px;
+  font-size: 22px;
+}
+
+.glyphicon-earphone{
+  color:white;
+  margin-right:20px;
+  font-size: 22px;
+}
+
+
+/*social media icons*/
+
+.github{
+  margin-left:-25px;
+}
+
+.icons{
+  list-style-type: none;
+  text-align: center;
+  color:white;
+  font-size: 40px;
+}
+
+.socialmedia-icons{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.space{
+  margin-right: 23px;
+}
+
+.fa-github{
+color:white;
+}
+
+.fa-github:hover{
+color:black;
+}
+
+
+.fa-linkedin{
+color:white;
+}
+
+.fa-linkedin:hover{
+color:#007bb6;
+}
+
+.fa-twitter{
+color:white;
+}
+
+.fa-twitter:hover{
+color:#00aced;
+}
+
+.fa-facebook{
+  color:white;
+}
+
+.fa-facebook:hover{
+  color:#3b5998;
+}
+

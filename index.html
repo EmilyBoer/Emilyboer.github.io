@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>EB Development</title>
-  <!--   <link type="text/css" rel="stylesheet" href="photos.css" /> -->
+
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -12,50 +12,112 @@
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
-  <link type="text/css" rel="stylesheet" href="stylesheets/default.css"/>
-  <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" href="stylesheets/default2.css"/>
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+  <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
 
   <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
 </head>
 
 <body>
-  <img src="sf.jpg">
-  <nav class="navbar navbar-inverse navbar-fixed-top" id= "my-navbar">
-    <div class= "container">
-      <div class= "navbar-header">
-        <button type ="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="emilyboer.github.io" class="navbar-brand"><img id="logo" src="imgs/eb.png" alt="logo" width="65" height="65"></img></a>
+
+  <div class = " nav-row container">
+    <div class = "my-nav-bar row">
+      <div class = "container">
+        <a href><button class = "col-md-2 nav-buttons">CONTACT</button></a>
+        <a href><button class = "col-md-2 nav-buttons">CONTACT</button></a>
+        <a href ='#projects'><button class = "page-scroll col-md-2 nav-buttons">PROJECTS</button></a>
+        <a href ="#about"><button class = "page-scroll col-md-2 nav-buttons">ABOUT</button></a>
+        <a href><button class = "col-md-2 nav-buttons">BLOG</button></a>
       </div>
-      <div class = "collapse navbar-collapse">
-        <ul class= "nav navbar-nav">
-          <li><a href ="#About">About</a>
-            <li><a class="page-scroll" href ="#Projects">Projects</a>
-              <li><a href ="#Contact">Contact</a>
-                <li><a href ="#Blog">Blog</a>
-                </ul>
-              </div>
-            </div>
-          </nav>
+    </div>
+  </div>
 
-
-
+  <section id="index" class="index-section">
+    <div class = "row">
+      <div class = "container ">
+        <div class ="col-md-12">
+          <p class="bio1">Hello, </p>
+          <p class="bio2">My name is Emily and I'm a Front-End Developer & Writer based in San Francisco. Click <span class = "here">here </span> to learn more.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about-section page-scroll">
+    <div class = "row">
+      <div class = "container">
+        <div class="col-md-12">
+          <h1 class= "section-header">ABOUT.</h1>
+        </div>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "container project-container">
+        <div class="col-md-12">
+          <div class="col-md-5">
+            <img class="head-shot" src="metaco.jpg"></img>
+          </div>
+          <div class="col-md-7">
+            <p class="bio">Sed enim tibique ei, ut mei numquam saperet. Nam ei natum scripta. Solet sanctus vim ad, nibh accommodare cu sit. Eu nec probo adipiscing. Latine civibus corrumpit ius ad. Cu ullum apeirian eos. Ad eruditi postulant ius, eos an quem facete splendide, eum id eruditi adolescens.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+  <section id="projects" class="project-section">
+    <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+    <li data-target="#carousel-example-captions" data-slide-to="0" class=""></li>
+    <li data-target="#carousel-example-captions" data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+    <div class="item1">
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="item2 active">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="item3">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-example-captions" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-captions" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+  </section>
 
 
-      </body>
+</body>
 
 
-      <footer>
-      </footer>
+<footer>
+</footer>
 
-      <!-- Latest compiled and minified JavaScript -->
+<!-- Latest compiled and minified JavaScript -->
 
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-      <script src="photos.js"></script>
-      <script src="test.js"></script>
-    </body>
-    </html>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="photos.js"></script>
+<script src="test.js"></script>
+</body>
+</html>

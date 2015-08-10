@@ -11,42 +11,60 @@ html{
 
 /*NAV BAR*/
 
+.logo{
+  height:70px;
+  width:70px;
+}
+
 .brand-button{
-  float:left;
+  margin-top: 45px;
+  margin-top: 35px;
+  margin-left:15px;
   color:#CC5200;
   font-family: 'Raleway', sans-serif;
   font-size: 2.5em;
-  margin-top: 45px;
   background-color: transparent;
   border: none;
-  margin-top: 35px;
+  float:left;
   font-weight: bold;
   display: inline-block;
-  margin-right: 270px;
-  margin-left:15px;
-  text-shadow: white .1px .1px;
+  text-shadow: white 1px 1px;
 }
+
 
 .brand-button:hover{
   color:#CC5200;
+  border: none;
+}
+
+a.nav-buttons:hover{
+ text-decoration: none;
+}
+
+.navbar-nav{
+  list-style: none;
+  margin-left: 50px;
 }
 
 .nav-buttons{
 float:right;
 color:#CC5200;
 font-family: 'Raleway', sans-serif;
-font-size: 1.6em;
+font-size: 1.9em;
 background-color: transparent;
 border: none;
-margin-top: 40px;
+margin-top: 60px;
+margin-left: 40px;
 font-weight: bold;
-display: inline-block;
-margin-left: 20px;
+display:inline-block;
+text-decoration: none;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .navbar-toggle{
   background-color: #CC5200;
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
 .icon-bar{
@@ -63,8 +81,9 @@ color:#B2B299;
 -webkit-border-radius: 20px 20px 20px 20px;
 border-radius: 20px 20px 20px 20px;
 background-color: #D67533;
-padding-left: -20px;
-padding-right: -20px;
+padding-left: 10px;
+padding-right: 10px;
+
 }
 
 .bio1, .bio2{ /*<--title and paragraph-->*/
@@ -89,29 +108,44 @@ padding-right: -20px;
 }
 
 
-
 /*ALL SECTIONS */
 .section-header{
 color:#CC5200;
 font-family: 'Raleway', sans-serif;
-font-weight: 700;
+font-weight: 100;
 letter-spacing: 1px;
 margin-top: 30px;
 margin-bottom: 60px;
+font-size:3.7em;
 }
 
 
 /*ABOUT SECTION*/
 
+.slide-image:hover {
+  opacity: .8;
+}
+
+.slide-image:hover{
+  display:inline-block;
+}
+
+
+
+.click-image{
+display:none;
+}
+
+
 .about-section{
 background-color: #fff;
 margin:0px;
+margin-bottom:100px;
 }
 
 .head-shot{
-  max-width: 100%;
+  max-width: 70%;
   max-height: 100%;
-  margin-bottom:170px;
 }
 
 .bio{
@@ -120,17 +154,52 @@ margin:0px;
   letter-spacing: 2px;
 }
 
+/*icons */
+i.fa {
+font-size: 40px;
+}
+
+
+.language-text{
+font-size:20px;
+}
+
+.languages{
+  color:#6C6C50;
+  font-family: inherit;
+  display: inline-block;
+  padding:30px;
+}
+
+.language-divs{
+  margin-top: 20px;
+  text-align: center;
+}
+
 
 /*PROJECT SECTION*/
+.slide-image{
+  margin-bottom: 140px;
+}
+
+.carousel-caption{
+ text-align: center;
+ bottom: -120px;
+}
+
+
+.carousel-control {
+  top:50%;
+}
+
+.center-block{
+  text-align: center;
+}
 
 .project-section{
 background-color: #FFE9BF;
 }
 
-img{
-  margin-left: 30%;
-  margin-bottom: 60px;
-}
 
 .carousel-control.right {
   background-image:none;
@@ -140,6 +209,17 @@ img{
   background-image:none;
 }
 
+.cat-site-caption{
+font-family: inherit;
+color: #6C6C50;
+text-shadow:none;
+font-weight: 300;
+}
+
+
+
+
+
 /*CONTACT SECTION*/
 .contact-section{
 background-color: #6C6C50;
@@ -147,6 +227,10 @@ background-color: #6C6C50;
 
 .center{
 text-align: center;
+}
+
+.fa-phone-square{
+  font-size:1.7em;
 }
 
 .contact-info{
@@ -159,16 +243,12 @@ text-align: center;
 a.contact-info:hover{
   text-decoration: none;
   color:#CC5200;
-
 }
-
-
 
 .border{
   border-bottom: solid 1px white;
   margin-top: 60px;
   margin-bottom: 20px;
-
 }
 
 .glyphicon-envelope{
@@ -185,7 +265,6 @@ a.contact-info:hover{
 
 
 /*social media icons*/
-
 .github{
   margin-left:-25px;
 }
@@ -239,3 +318,78 @@ color:#00aced;
   color:#3b5998;
 }
 
+
+/*<!-- media queries -->*/
+
+
+/*tablet-size lrg */
+@media(max-width:991px)  {
+
+  /*navigation collapse and toggle*/
+  .navbar-collapse.collapse {
+    display:none !important;
+  }
+  .navbar-collapse {
+    overflow-x: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: auto !important;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+
+  .bio1, .bio2{ /*<--title and paragraph-->*/
+  font-size: 3.8em;
+  }
+  }
+
+
+  /*tablet-size med*/
+  @media(max-width:700px)  {
+
+    .bio1, .bio2{ /*<--title and paragraph-->*/
+    font-size: 3.4em;
+    }
+
+    i.fa {
+    font-size: 35px;
+    }
+
+    .language-text{
+    font-size:15px;
+    }
+
+    .section-header{
+      font-size:3em;
+    }
+  }
+
+
+/*tablet-size sm*/
+  @media(max-width:580px)  {
+
+.bio1, .bio2{ /*<--title and paragraph-->*/
+    font-size: 2.8em;
+    }
+
+
+
+  }
+
+/*mobile-size*/
+  @media(max-width:450px)  {
+
+.bio1, .bio2{ /*<--title and paragraph-->*/
+    font-size: 2em;
+    }
+
+.section-header{
+      font-size:2.5em;
+    }
+.portfolio-image{
+  width:64%;
+}
+
+
+  }

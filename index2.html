@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <title>EB Development</title>
 
-
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="bootstrap.css">
 
 
   <!-- Optional theme -->
@@ -30,14 +28,7 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-  <!-- jquery -->
-
   <script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
-
-  <script src='scrolling-nav.css'></script>
-
-
-
 
 </head>
 
@@ -47,64 +38,101 @@
     <div class = "container">
       <div class = "row">
         <div class="navbar header">
-          <button type="button" class = "navbar-toggle" data-type="collapse" data-target="navbar-collapse">
+          <button type="button" class = "navbar-toggle" data-type="collapse" data-target="#navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href class = "navbar-brand brand-button">EMILY B.</a>
-          <div class="collapse navbar-collapse" id=""navbar-collaspe>
-            <ul class ="nav navbar-nav my-nav-bar">
+          <a href class = "navbar-brand brand-button"> <img class="logo" src="logo3.png" </a>
+          <div class="collapse navbar-collapse" id="navbar-collaspe">
+
+            <ul class ="navbar-nav my-nav-bar">
               <li><a href="#contact" class = "page-scroll nav-buttons">CONTACT</a></li>
               <li><a href= "#projects" class = "page-scroll nav-buttons">PROJECTS</a></li>
               <li><a href ="#about" class = " nav-buttons">ABOUT</a></li>
             </ul>
-          </div>
-        </div>
-      </div>
-      <div class = "row">
-        <div class = "container ">
-          <div class ="col-md-12">
-            <p class="bio1">Hello, </p>
-            <p class="bio2">My name is Emily and I'm a Front-End Developer & Writer based in San Francisco. Click <span class = "here">here </span> to learn more.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="about" class="about-section page-scroll">
-      <div class = "row">
-        <div class = "container">
-          <div class="col-md-12">
-            <h1 class= "section-header">ABOUT.</h1>
           </div>
         </div>
       </div>
-      <div class = "row">
-        <div class = "container project-container">
-          <div class="col-md-12">
-            <div class="col-md-5">
-              <img class="head-shot" src="metaco.jpg"></img>
-            </div>
-            <div class="col-md-7">
-              <p class="bio">Sed enim tibique ei, ut mei numquam saperet. Nam ei natum scripta. Solet sanctus vim ad, nibh accommodare cu sit. Eu nec probo adipiscing. Latine civibus corrumpit ius ad. Cu ullum apeirian eos. Ad eruditi postulant ius, eos an quem facete splendide, eum id eruditi adolescens.
-              </p>
-            </div>
+    </div>
+    <div class = "row">
+      <div class = "container ">
+        <div class ="col-md-12">
+          <p class="bio1">Hello, </p>
+          <p class="bio2">My name is Emily and I'm a Front-End Developer & Writer based in San Francisco. Click <span class = "here">here </span> to learn more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  about section -->
+
+  <section id="about" class="about-section page-scroll">
+    <div class = "row">
+      <div class = "container">
+        <div class="col-md-12">
+          <h1 class= "section-header">About.</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "container project-container">
+        <div class="col-md-12">
+          <div class="col-md-5">
+            <img class="head-shot" src="metaco.jpg"></img>
+          </div>
+          <div class="col-md-7">
+            <p class="bio">Sed enim tibique ei, ut mei numquam saperet.Sed enim tibique ei, ut mei numquam saperet. Nam ei natum scripta. Solet sanctus vim ad, nibh accommodare cu sit.Sed enim tibique ei, ut mei numquam saperet. Nam ei natum scripta. Solet sanctus vim ad, nibh accommodare cu sit.
+            </p>
+          </div>
+        </div>
+
+        <div class="row language-divs">
+          <div class="col-md-2 col-sm-4 col-xs-4 languages">
+            <i class="fa fa-edit"></i>
+            <h1 class="language-text">HTML</h1>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4 languages">
+            <i class="fa fa-paint-brush"></i>
+            <h1 class="language-text">CSS</h1>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4 languages">
+            <i class="fa fa-code"></i>
+            <h1 class="language-text">JAVASCRIPT</h1>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4 languages">
+            <i class="fa fa-desktop"></i>
+            <h1 class="language-text">JQUERY</h1>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4 languages">
+            <i class="fa fa-laptop"></i>
+            <h1 class="language-text">RUBY</h1>
+          </div>
+          <div class="col-md-2 col-sm-4 col-xs-4 languages">
+            <i class="fa fa-database"></i>
+            <h1 class="language-text">RAILS</h1>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
+</div>
 </section>
+
+<!-- projects section -->
 
 <section id="projects" class="page-scroll project-section">
   <div class = "row">
     <div class = "container">
       <div class="col-md-12">
-        <h1 class= "section-header">PROJECTS.</h1>
+        <p class= "section-header">Projects.</p>
       </div>
     </div>
   </div>
+
   <div class = "row">
     <div class = "container project-container">
       <div class="col-md-12">
@@ -114,37 +142,42 @@
             <li data-target="#carousel-example-captions" data-slide-to="1" class="active"></li>
             <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
           </ol>
+
           <div class="carousel-inner">
+
             <div class="item active">
-              <img src="catswebsite.png" class="cats-website">
+              <img src="catswebsite.png" class="slide-image cats-website img-responsive center-block">
               <div class="carousel-caption">
-                <h3></h3>
+                <h3 class="cat-site-caption">Responsive site built with HTML, CSS & Bootstrap</h3>
                 <p></p>
               </div>
-            </div>
+            </div> <!-- end item -->
+
             <div class="item">
-              <img src="catswebsite.png" class="cats-website">
+              <img src="portfolio.png" class="slide-image portfolio-image img-responsive center-block">
               <div class="carousel-caption">
-                <h3></h3>
+                <a href="#" class="click-image"><p>click more for more info</p></a>
+              <h3 class="cat-site-caption">My personal portfolio of content development</h3>
                 <p></p>
-              </div>
-            </div>
+                </div>
+            </div> <!-- end item -->
+
             <div class="item">
-              <img src="catswebsite.png" class="cats-website">
+              <a href= "#"><img class="slide-image img-responsive center-block cats-website" src="catswebsite.png"></a>
               <div class="carousel-caption">
-                <h3></h3>
+              <h3 class="cat-site-caption">Customizable Bingo Board</h3>
                 <p></p>
-              </div>
-            </div>
-          </div>
+                </div>
+            </div> <!-- end item -->
+
+          </div> <!-- end inner  -->
           <a class="left carousel-control" href="#carousel-example-captions" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="fa fa-chevron-left"></span>
           </a>
           <a class="right carousel-control" href="#carousel-example-captions" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="fa fa-chevron-right"></span>
           </a>
         </div>
-
       </div>
     </div>
   </div>
@@ -153,60 +186,56 @@
 </div>
 </section>
 
+<!-- contact section -->
+
 <section id="contact" class="contact-section page-scroll">
   <div class = "row">
     <div class = "container">
       <div class="col-md-12">
-        <h1 class= "section-header">CONTACT.</h1>
+        <h1 class= "section-header">Contact.</h1>
       </div>
     </div>
   </div>
   <div class = "row">
     <div class = "container contact-container">
       <div class="col-md-6">
-        <p class= "center"><span class="glyphicon glyphicon-earphone"></span>
-        <span class="contact-info" >610-513-8501<span></p>
+        <p class= "center"><span class="fa fa-phone-square"></span>
+          <span class="contact-info" >610-513-8501<span></p>
+          </div>
+
+          <div class="col-md-6">
+            <p class= "center"><span class="fa fa-envelope"></span>
+             <a href="mailto:Emily.boerner@gmail.com" class="contact-info">Emily.boerner@gmail.com</a></p>
+           </div>
+           <div class='row'>
+             <div class="col-md-4">
+             </div> <!-- end column -->
+             <div class="col-md-4">
+              <div class= "border">
+              </div>
+            </div> <!-- end column -->
+            <div class="col-md-4">
+            </div> <!-- end column -->
+          </div> <!-- end row -->
+          <div class='row'>
+            <div class="col-md-12">
+              <ul class="icons">
+
+                <li class="socialmedia-icons space github"> <a href="https://github.com/EmilyBoer" target="_blank"><i class="fa fa-github"></i></a></li>
+
+                <li class="socialmedia-icons space"> <a href="https://www.linkedin.com/profile/view?id=69897044&trk=hp-identity-photo" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+                <li class="socialmedia-icons space"> <a href="https://twitter.com/EmilySBoerner" target="_blank"><i class="fa fa-twitter"></i></a></li>
+
+                <li class= "socialmedia-icons"> <a href="https://www.facebook.com/emily.boerner.90" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              </ul>
+
+            </div> <!-- end column -->
+          </div> <!-- end row -->
         </div>
-
-        <div class="col-md-6">
-          <p class= "center"><span class="glyphicon glyphicon-envelope"></span>
-           <a href="mailto:Emily.boerner@gmail.com" class="contact-info">Emily.boerner@gmail.com</a></p>
-        </div>
-        <div class='row'>
-           <div class="col-md-4">
-          </div> <!-- end column -->
-          <div class="col-md-4">
-            <div class= "border">
-            </div>
-          </div> <!-- end column -->
-           <div class="col-md-4">
-          </div> <!-- end column -->
-        </div> <!-- end row -->
-        <div class='row'>
-          <div class="col-md-12">
-            <ul class="icons">
-
-              <li class="socialmedia-icons space github"> <a href="https://github.com/EmilyBoer" target="_blank"><i class="fa fa-github"></i></a></li>
-
-              <li class="socialmedia-icons space"> <a href="https://www.linkedin.com/profile/view?id=69897044&trk=hp-identity-photo" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-
-              <li class="socialmedia-icons space"> <a href="https://twitter.com/EmilySBoerner" target="_blank"><i class="fa fa-twitter"></i></a></li>
-
-              <li class= "socialmedia-icons"> <a href="https://www.facebook.com/emily.boerner.90" target="_blank"><i class="fa fa-facebook"></i></a></li>
-
-
-
-
-
-
-            </ul>
-
-          </div> <!-- end column -->
-        </div> <!-- end row -->
       </div>
     </div>
   </div>
-</div>
 </div>
 </div>
 </section>
@@ -220,24 +249,11 @@
 <!-- Latest compiled and minified JavaScript -->
 
 <!-- jQuery -->
-<script src="jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="photos.js"></script>
 <script src="test.js"></script>
-<script src="scrolling-nav.js"></script>
-<script src="jquery.easing.min.js"></script>
-
-<!-- jQuery -->
-<script src="jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="bootstrap.min.js"></script>
-
-<!-- Scrolling Nav JavaScript -->
-<script src="jquery.easing.min.js"></script>
-
-<script src="scrolling-nav.js"></script>
-
 
 </body>
 </html>
+
+

@@ -251,17 +251,13 @@ a.contact-info:hover{
   margin-bottom: 20px;
 }
 
-.glyphicon-envelope{
+.fa-envelope{
   color:white;
   margin-right:20px;
   font-size: 22px;
 }
 
-.glyphicon-earphone{
-  color:white;
-  margin-right:20px;
-  font-size: 22px;
-}
+
 
 
 /*social media icons*/

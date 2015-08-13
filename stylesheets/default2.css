@@ -1,11 +1,21 @@
 html{
   margin:20px;
+  color: white;
 }
+
+
 
 /*BODY*/
 
 #index{
   background-image: url("../sfphoto.jpg");
+  background-attachment:fixed;
+}
+
+#skills{
+  background-image: url("../coding.jpg");
+  background-attachment:fixed;
+
 }
 
 
@@ -154,7 +164,7 @@ margin-bottom:100px;
   letter-spacing: 2px;
 }
 
-/*icons */
+/*skills */
 i.fa {
 font-size: 40px;
 }
@@ -165,7 +175,7 @@ font-size:20px;
 }
 
 .languages{
-  color:#6C6C50;
+  color:black;
   font-family: inherit;
   display: inline-block;
   padding:30px;
@@ -229,9 +239,6 @@ background-color: #6C6C50;
 text-align: center;
 }
 
-.fa-phone-square{
-  font-size:1.7em;
-}
 
 .contact-info{
   font-size:1.7em;
@@ -251,16 +258,14 @@ a.contact-info:hover{
   margin-bottom: 20px;
 }
 
-.glyphicon-envelope{
+.fa-envelope{
   color:white;
   margin-right:20px;
-  font-size: 22px;
 }
 
-.glyphicon-earphone{
+.fa-phone-square{
   color:white;
   margin-right:20px;
-  font-size: 22px;
 }
 
 
@@ -286,36 +291,36 @@ a.contact-info:hover{
 }
 
 .fa-github{
-color:white;
+color:black;
 }
 
 .fa-github:hover{
-color:black;
+color:white;
 }
 
 
 .fa-linkedin{
-color:white;
-}
-
-.fa-linkedin:hover{
 color:#007bb6;
 }
 
-.fa-twitter{
+.fa-linkedin:hover{
 color:white;
 }
 
-.fa-twitter:hover{
+.fa-twitter{
 color:#00aced;
 }
 
+.fa-twitter:hover{
+color:white;
+}
+
 .fa-facebook{
-  color:white;
+  color:#3b5998;
 }
 
 .fa-facebook:hover{
-  color:#3b5998;
+  color:white;
 }
 
 

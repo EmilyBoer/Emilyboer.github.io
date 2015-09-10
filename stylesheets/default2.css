@@ -656,11 +656,6 @@ a.contact-info2:hover, a.contact-info:hover{
   #index{
   background-image: url("../lights .jpg");
   background-attachment:fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
   width: 100%;
   height: auto;
 }

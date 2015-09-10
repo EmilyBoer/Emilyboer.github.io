@@ -655,21 +655,20 @@ a.contact-info2:hover, a.contact-info:hover{
 
   #index{
   background-image: url("../lights .jpg");
-  background-attachment:fixed;
   width: 100%;
   height: auto;
 }
 
   /*index section*/
   .name{
-    font-size: 2em;
-    margin-top: 65%;
+    font-size: 2.4em;
+    margin-top: 75%;
   }
 .web{
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
-  .skill-header-skills, .skills-header, .skill-header-projects{
+  .skill-header-skills, .skill-header, .skill-header-projects{
     font-size:2.4em;
   }
   .skill-header-contact{

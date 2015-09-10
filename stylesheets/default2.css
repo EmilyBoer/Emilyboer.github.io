@@ -676,16 +676,21 @@ a.contact-info2:hover, a.contact-info:hover{
 
   .carousel-caption{
  text-align: center;
- bottom: -250px;
+ bottom: -330px;
+ margin-right: 0px;
 }
+
+
 
 .carousel-indicators{
   margin-bottom: -40px;
 }
 .click-to-view{
-  margin-bottom: 80px;
+
   background-color: #DBA24D;
   color:white;
+  margin-bottom: 160px;
+  margin-top: 0px;
 }
 
 

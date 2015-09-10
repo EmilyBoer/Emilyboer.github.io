@@ -91,7 +91,7 @@ a.nav-buttons:hover{
   text-align: center;
   margin-top: 20%;
 }
-.web{ /*<--title and paragraph-->*/
+.web-name{ /*<--title and paragraph-->*/
   font-size: 7em;
   font-weight: 400;
   color: white;
@@ -474,7 +474,7 @@ a.contact-info:hover{
 
 
 /*tablet-size lrg */
-@media(max-width:991px)  {
+@media screen and (max-width:991px)  {
 
   .head-shot{
     max-width: 100%;
@@ -500,7 +500,7 @@ a.contact-info:hover{
 
 
 /*tablet-size med*/
-@media(max-width:768px)  {
+@media screen and (max-width:768px)  {
 
   .navbar{
     background-color: white;
@@ -561,7 +561,7 @@ a.contact-info:hover{
 
 
 /*tablet-size sm*/
-@media(max-width:580px)  {
+@media screen and (max-width:580px)  {
 
 
   /*index section*/
@@ -633,7 +633,7 @@ a.contact-info:hover{
 
 
 /*mobile-size*/
-@media(max-width:450px)  {
+@media screen and (max-width:450px)  {
 
   /*index section*/
   .name{

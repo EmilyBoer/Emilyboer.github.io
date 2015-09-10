@@ -653,6 +653,18 @@ a.contact-info2:hover, a.contact-info:hover{
 /*mobile-size*/
 @media screen and (max-width:450px)  {
 
+  #index{
+  background-image: url("../lights .jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
   /*index section*/
   .name{
     font-size: 2em;

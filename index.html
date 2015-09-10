@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
   <title>EB Development</title>
 
   <!-- Latest compiled and minified CSS -->
@@ -84,6 +85,7 @@
       <div class = "row">
         <div class ="col-md-12">
           <p class="name">Emily Boerner</p>
+          <p class="web">Web Development </p>
         </div>
       </div>
 
@@ -102,16 +104,12 @@
 
     <ul class="center-list">
 
-      <li class="center">  <a class ="center-button" href ="mailto:Emily.boerner@gmail.com"><button class='btn get-in-touch'>Get in Touch</button></a></li>
+      <li class="center"><a class ="center-button" href ="mailto:Emily.boerner@gmail.com"><button class='btn get-in-touch'>Get in Touch</button></a></li>
     </ul>
 
 
 
-
-
-
-
-</div>
+  </div>
 
 </section>
 
@@ -144,26 +142,24 @@
     <div class="col-md-12">
 
       <div class = "container">
-      <div class=" center-photo col-md-5 col-sm-5 col-xs-12">
-        <img class="head-shot img-responsive" src="me.png"></img>
-      </div>
+        <div class=" center-photo col-md-5 col-sm-5 col-xs-12">
+          <img class="head-shot img-responsive" src="me.png"></img>
+        </div>
 
 
-      <div class="col-md-7 col-sm-7 col-xs-12">
-        <p class="bio">
-        </p>
-        <p class="bio">
-          My name is Emily and I'm a front-end developer with a passion for learning.
-        </p>
-        <p class="bio">
-          When I'm not building websites I'm reading, sewing or watering my many plants. Check out my skills below.
-        </p>
+        <div class="col-md-7 col-sm-7 col-xs-12">
+          <p class="bio">
+          </p>
+          <p class="bio">
+            My name is Emily and I'm a front-end developer with a passion for learning.
+          </p>
+          <p class="bio">
+            When I'm not building websites I'm reading, sewing or watering my many plants. Check out my skills below.
+          </p>
+        </div>
       </div>
     </div>
-
   </div>
-
-</div>
 </div>
 </div>
 </div>
@@ -221,92 +217,13 @@
 </div>
 </section>
 
-<!-- <section id="projects" class="page-scroll project-section">
-  <div class = "row">
-    <div class = "container">
-      <div class="col-md-12">
-        <h1 class= "skill-header">Check out my work.</h1>
-      </div>
-    </div>
-  </div>
-  <div class='row'>
-   <div class="col-md-5 col-sm-4 col-xs-4">
-   </div> <!-- end column -->
-   <!-- <div class="col-md-2 col-sm-4 col-xs-4">
-    <div class= "div-box"> -->
- <!--    </div>
-  </div> <!-- end column -->
-<!--   <div class="col-md-5 col-sm-4 col-xs-4">
-  </div> <!-- end column -->
-<!-- </div> end row
-</div> -->
-
-<!-- // $(document).ready(function(){
-//  $('.thumbnail').hover(function(){
-//             $(this).find('.caption').fadeIn(250); //.fadeIn(250)
-//           },
-//           function(){
-//             $(this).find('.caption').fadeOut(250); //.fadeOut(205)
-//           });
-// });
-// </script> -->
-
-<!-- <div class="row">
-  <div class="col-sm-4">
-    <div class="thumbnail">
-      <div class="caption">
-       <h4 class="">Cat Byun Illustrations</h4>
-       <p class=""></p>
-     </div>
-     <img src="portfolio.png" class="portfolio-image img-responsive">
-   </div>
- </div>
- -->
-<!--
- <div class="col-sm-4">
-  <div class="thumbnail">
-    <div class="caption">
-     <h4 class="">Thumbnail Headline</h4>
-     <p class="">short thumbnail description</p>
-   </div>
-   <img src="portfolio.png" class="portfolio-image img-responsive">
- </div>
-</div>
- -->
-<!-- <div class="col-sm-4">
-  <div class="thumbnail">
-    <div class="caption">
-     <h4 class="">Thumbnail Headline</h4>
-     <p class="">short thumbnail description</p>
-   </div>
-   <img src="bamboo.png" class="portfolio-image img-responsive">
- </div>
-</div>
-
- -->
-
-
-<!-- </div>
-</div>
-
-<div class = "row">
-  <div class = "container project-container">
-    <div class="col-md-12">
-
-    </div>
-  </div>
-</div>
-
-</section> -->
-
-<!-- projects section -->
 
 
 <section id="projects" class="page-scroll project-section">
   <div class = "row">
     <div class = "container">
       <div class="col-md-12">
-        <h1 class= "skill-header">Check out my work.</h1>
+        <h1 class= "skill-header-projects">Check out my work.</h1>
       </div>
     </div>
   </div>
@@ -314,7 +231,7 @@
    <div class="col-md-5 col-sm-4 col-xs-4">
    </div> <!-- end column -->
    <div class="col-md-2 col-sm-4 col-xs-4">
-    <div class= "div-box">
+    <div class= "div-box-projects">
     </div>
   </div> <!-- end column -->
   <div class="col-md-5 col-sm-4 col-xs-4">
@@ -327,7 +244,7 @@
     <div class="col-md-12">
       <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#carousel-example-captions" data-slide-to="0" class=""></li>
+          <li class="carousel-dots" data-target="#carousel-example-captions" data-slide-to="0" class=""></li>
           <li data-target="#carousel-example-captions" data-slide-to="1" class="active"></li>
           <li data-target="#carousel-example-captions" data-slide-to="2" class=""></li>
         </ol>
@@ -335,31 +252,42 @@
         <div class="carousel-inner">
 
           <div class="item active">
-            <img src="catswebsite.png" class="slide-image cats-website img-responsive center-block">
+            <ul class="center-list">
+              <li class="center caption"><h3 class="cat-site-caption">Cat Byun Illustrations - <span class="sub-cat-site-caption"> HTML, CSS, JavaScript & Bootstrap</span></h3></li>
+            </ul>
+            <img src="cat-site-photo.png" class="slide-image cats-website img-responsive center-block">
             <div class="carousel-caption">
-              <h3 class="cat-site-caption">Responsive site built with HTML, CSS & Bootstrap</h3>
-              <p></p>
+              <h3 class="sub-cat-site-caption2">A customized, responsive portfolio site of illustrations, renderings and sketches.</h3>
+              <ul class="center-list">
+                <li class="center"><a class ="center-button" href ="http://emilyboer.github.io/CB/"><button class='btn click-to-view'>Click to View</button></a></li>
+              </ul>
             </div>
           </div> <!-- end item -->
 
-          <div class="item">
-            <img src="portfolio.png" class="slide-image portfolio-image img-responsive center-block">
+           <div class="item">
+            <ul class="center-list">
+              <li class="center caption"><h3 class="cat-site-caption">My Writing Portfolio - <span class="sub-cat-site-caption"> A collection of writing samples</span></h3></li>
+            </ul>
+            <img src="portfoliophoto.png" class="slide-image cats-website img-responsive center-block">
             <div class="carousel-caption">
-              <a href="#" class="click-image"><p>click more for more info</p></a>
-              <h3 class="cat-site-caption">My personal portfolio of content development</h3>
-              <p></p>
+              <h3 class="sub-cat-site-caption2">Clippings from my work with copywriting, ghostwriting and web content.</h3>
+              <ul class="center-list">
+                <li class="center"><a class ="center-button" href ="https://emilyboerner.carbonmade.com/"><button class='btn click-to-view'>Click to View</button></a></li>
+              </ul>
             </div>
           </div> <!-- end item -->
 
+
+<!--
           <div class="item">
-            <a href= "#"><img class="slide-image img-responsive center-block cats-website" src="catswebsite.png"></a>
+            <a href= "#"><img class="slide-image img-responsive center-block cats-website" src="cat-site-photo.png"></a>
             <div class="carousel-caption">
               <h3 class="cat-site-caption">Customizable Bingo Board</h3>
               <p></p>
             </div>
-          </div> <!-- end item -->
+          </div> <
 
-        </div> <!-- end inner  -->
+        </div> <! end inner  -->
         <a class="left carousel-control" href="#carousel-example-captions" role="button" data-slide="prev">
           <span class="fa fa-chevron-left"></span>
         </a>
@@ -454,6 +382,9 @@
 
 </body>
 </html>
+
+
+
 
 
 

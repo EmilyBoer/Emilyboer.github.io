@@ -1,114 +1,10 @@
-/*TEST*/
+
 
 *{
   margin:0;
 }
 
-
-.index-container{
-  margin-bottom: 220px;
-}
-
-#index{
-  background-image: url("../lights .jpg");
-  background-attachment:fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-}
-
-.thumbnail {
-  position:relative;
-  overflow:hidden;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.caption {
-  position:absolute;
-  top:0;
-  right:0;
-  background:rgba(50, 50, 70, 0.75);
-  width:100%;
-  height:100%;
-  padding:2%;
-  display: none;
-  text-align: left;
-  color:#fff !important;
-  z-index:2;
-}
-
-
-
 /*BODY*/
-
-
-
-
-
-#about{
-  background-color:white;
-  background-attachment:fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
-}
-
-.about-container{
-  margin-bottom: 110px;
-}
-
-
-#skills{
-  background-color:#f3f3f3;
-  background-attachment:fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 100%;
-}
-
-#contact{
-  background-image:url("../citystreet.png");
-  background-attachment:fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 100%;
-}
-
-#project{
-  background-color: white;
-}
-
-.center-list{
-  text-align: center;
-  list-style: none;
-  padding-left: 0px;
-}
-
-.center{
-  padding-right: 0px;
-  text-align: center;
-}
-
 
 /*NAV BAR*/
 
@@ -156,7 +52,35 @@ a.nav-buttons:hover{
 
 }
 
+.index-container{
+  margin-bottom: 220px;
+}
 
+#index{
+  background-image: url("../lights .jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.center-list{ /*line up name, button, line on page*/
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.center{ /*line up name, button, line on page*/
+  padding-right: 0px;
+  text-align: center;
+}
+
+
+/*name and button*/
 
 .name{ /*<--title and paragraph-->*/
   font-size: 7em;
@@ -167,6 +91,16 @@ a.nav-buttons:hover{
   text-align: center;
   margin-top: 20%;
 }
+.web{ /*<--title and paragraph-->*/
+  font-size: 7em;
+  font-weight: 400;
+  color: white;
+  font-family: font-family: 'Patua One', cursive;
+  margin-left: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+
 
 .get-in-touch{
   margin-top: 40px;
@@ -186,18 +120,23 @@ a.nav-buttons:hover{
 }
 
 
-
-
 /*ABOUT SECTION*/
 
 
-.slide-image:hover{
-  display:inline-block;
+#about{
+  background-color:white;
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
-
-.click-image{
-  display:none;
+.about-container{
+  margin-bottom: 110px;
 }
 
 
@@ -217,6 +156,18 @@ a.nav-buttons:hover{
 }
 
 /*skills */
+
+#skills{
+  background-color:#f3f3f3;
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
 
 .skills-container{
   margin-bottom: 20px;
@@ -244,38 +195,12 @@ a.nav-buttons:hover{
 }
 
 
-.skill-header-contact{
-  text-align: center;
-  color:white;
-  margin-top:70px;
-  margin-bottom:10px;
-  font-weight: 100;
-  font-size: 5em;
-  font-family: font-family: 'Patua One', cursive;
-}
-
 .div-box{
   border-bottom: solid 1px #DBA24D;
   margin-bottom:50px;
   margin-top: 30px;
 }
 
-.div-box-white{
- border-bottom: solid 1px white;
- margin-bottom:150px;
- margin-top: 20px;
-}
-
-.skill-sub-header{
-  text-align: center;
-  color: black;
-  margin-top:15px;
-  margin-bottom:30px;
-
-  font-weight: 100;
-  font-size: 2.3em;
-  font-family: font-family: 'Patua One', cursive;
-}
 
 i.fa {
   font-size: 40px;
@@ -301,6 +226,26 @@ i.fa {
 
 
 /*PROJECT SECTION*/
+.skill-header-projects{
+  text-align: center;
+  color:black;
+  margin-top:70px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 5em;
+  font-family: font-family: 'Patua One', cursive;
+}
+
+.div-box-projects{
+  border-bottom: solid 1px #DBA24D;
+  margin-bottom:20px;
+  margin-top: 30px;
+}
+
+#project{
+  background-color: white;
+}
+
 .projects-container{
   margin-bottom: 50px;
 }
@@ -311,12 +256,16 @@ i.fa {
 
 .carousel-caption{
  text-align: center;
- bottom: -120px;
+ bottom: -170px;
+}
+
+.caption{
+  margin-bottom: 20px;
 }
 
 
 .carousel-control {
-  top:50%;
+  top:40%;
 }
 
 .center-block{
@@ -325,15 +274,24 @@ i.fa {
 
 .project-section{
   background-color: white;
+  margin-bottom: 30px;
 }
 
 
 .carousel-control.right {
   background-image:none;
+  font-size: 50px;
+  color:#DBA24D;
+  text-shadow:none;
 }
+
+
 
 .carousel-control.left{
   background-image:none;
+  font-size: 50px;
+  color:#DBA24D;
+  text-shadow:none;
 }
 
 .cat-site-caption{
@@ -344,10 +302,67 @@ i.fa {
 }
 
 
+.sub-cat-site-caption{
+  font-family: inherit;
+  color: #6C6C50;
+  font-size: 20px;
+  text-shadow:none;
+  font-weight: 100;
+}
+
+.sub-cat-site-caption2{
+  font-family: inherit;
+  color: #6C6C50;
+  font-size: 20px;
+  text-shadow:none;
+  font-weight: 300;
+}
+
+.click-to-view{
+  margin-top: 10px;
+  margin-bottom:30px;
+  background-color: transparent;
+  border:2px #DBA24D solid;
+  color: #DBA24D;
+  font-size:25px;
+  font-family: font-family: 'Patua One', cursive;
+  font-weight: 100;
+  position:relative;
+  text-align: center
+}
+
+.click-to-view:hover{
+  background-color:#DBA24D;
+  color:white;
+}
+
+.carousel-indicators .active{
+  background-color:#6C6C50;
+}
+
+.carousel-indicators li {
+   border:1px solid #6C6C50;
+}
+
+.carousel-indicators {
+margin-bottom: -10px;
+}
 
 
 
 /*CONTACT SECTION*/
+#contact{
+  background-image:url("../citystreet.png");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+
 .contact-container{
   margin-bottom: 120px;
 }
@@ -355,6 +370,23 @@ i.fa {
 .contact-section{
   background-color: #6C6C50;
 }
+
+.div-box-white{
+ border-bottom: solid 1px white;
+ margin-bottom:150px;
+ margin-top: 20px;
+}
+
+.skill-header-contact{
+  text-align: center;
+  color:white;
+  margin-top:70px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 5em;
+  font-family: font-family: 'Patua One', cursive;
+}
+
 
 .center{
   text-align: center;
@@ -460,8 +492,8 @@ a.contact-info:hover{
     margin-bottom: 50px;
   }
 
-  #about{
-
+  .web{
+    font-size: 6.2em;
   }
 
 }
@@ -487,19 +519,29 @@ a.contact-info:hover{
   }
 
   /*index section*/
-  .name{
+   .name{
     font-size: 5em;
     margin-top: 38%;
   }
+  .web{
+    font-size: 4.8em;
+  }
 
   /*  about section*/
-  .skill-header{
+
+ .skill-header, .skill-header-skills .skill-header-projects{
     margin-top:70px;
     margin-bottom:10px;
     font-weight: 100;
     font-size: 3em;
     font-family: font-family: 'Patua One', cursive;
   }
+
+   .skill-header-contact{
+    font-size:3em;
+    color:white;
+  }
+
   .head-shot{
    margin-top: 30px;
    max-width: 60%;
@@ -521,10 +563,14 @@ a.contact-info:hover{
 /*tablet-size sm*/
 @media(max-width:580px)  {
 
+
   /*index section*/
   .name{
     font-size: 3em;
     margin-top: 55%;
+  }
+   .web{
+    font-size: 3em;
   }
 
   /*about section*/
@@ -543,7 +589,7 @@ a.contact-info:hover{
    margin-bottom: 10px;
  }
 
- .skill-header-skills{
+ .skill-header-skills, .skill-header-projects{
   text-align: center;
   color:black;
   margin-top:70px;
@@ -552,8 +598,35 @@ a.contact-info:hover{
   font-size: 3em;
   font-family: font-family: 'Patua One', cursive;
 }
+ .skill-header-contact{
+    font-size:3em;
+    color:white;
+  }
+
+
+.get-in-touch{
+  background-color:white;
+}
 
  /*skills section*/
+
+ /*projects section*/
+.carousel-caption{
+ text-align: center;
+ bottom: -200px;
+}
+
+.click-to-view{
+  margin-bottom: 30px;
+}
+
+.carousel-indicators{
+  margin-bottom: -40px;
+}
+
+.project-section{
+  margin-bottom: 60px;
+}
 
 }
 
@@ -567,10 +640,22 @@ a.contact-info:hover{
     font-size: 3em;
     margin-top: 65%;
   }
+.web{
+  font-size: 2.9em;
+}
 
-  .section-header{
+
+
+  .skill-header-skills, .skills-header, .skill-header-projects{
     font-size:2.5em;
   }
+  .skill-header-contact{
+    font-size:2.5em;
+    color:white;
+  }
+
+
+
   .portfolio-image{
     width:64%;
   }

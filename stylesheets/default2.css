@@ -510,7 +510,7 @@ a.contact-info2:hover, a.contact-info:hover{
 }
 
 .icons{
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 
@@ -717,7 +717,7 @@ a.contact-info2:hover, a.contact-info:hover{
   /*contact*/
   .div-box-contact{
     border-bottom: solid 1px white;
-    margin-bottom:80px;
+    margin-bottom:100px;
     margin-top: 20px;
   }
 
@@ -856,7 +856,10 @@ a.contact-info2:hover, a.contact-info:hover{
   margin-bottom: 170px;
 }
 .icons{
-  margin-bottom: 20px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
 }
 
 }

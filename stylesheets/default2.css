@@ -694,9 +694,13 @@ a.contact-info2:hover, a.contact-info:hover{
 
 
   /*ALL SITES */
-  .skill-header-contact, .skill-header-skills, .skill-header, .skill-header-projects{
+ .skill-header-skills, .skill-header, .skill-header-projects{
     font-size:2.4em;
     margin-top: 30px;
+  }
+  .skill-header-contact{
+    font-size:2.4em;
+    margin-top: -30px;
   }
 
 
@@ -843,14 +847,18 @@ a.contact-info2:hover, a.contact-info:hover{
     font-weight: 300;
   }
   .contact-info2{
-  font-size:1.6em;
+  font-size:1.3em;
   color:white;
   letter-spacing: 2px;
   font-weight: 300;
 }
 .contact-container{
-  margin-bottom: 120px;
+  margin-bottom: 170px;
 }
+.icons{
+  margin-bottom: 20px;
+}
+
 }
 
 

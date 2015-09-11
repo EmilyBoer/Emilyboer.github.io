@@ -15,7 +15,10 @@ html, body {
 
 /*NAV BAR*/
 
+.nav-list{
+  color:orange;
 
+}
 
 .navbar-brand{
   font-size: 30px;
@@ -29,6 +32,23 @@ html, body {
   font-family: font-family: 'Patua One', cursive;
   margin-right: 0px;
 
+}
+
+.div-box{
+  border-bottom: solid 1px #DBA24D;
+  margin-bottom:50px;
+  margin-top: 30px;
+}
+
+
+.skill-header{
+  text-align: center;
+  color:black;
+  margin-top:70px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 5em;
+  font-family: font-family: 'Patua One', cursive;
 }
 
 a.nav-buttons:hover{
@@ -76,7 +96,7 @@ a.nav-buttons:hover{
   -o-background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 .center-list{ /*line up name, button, line on page*/
@@ -151,7 +171,6 @@ a.nav-buttons:hover{
 }
 
 
-
 .head-shot{
   margin-top: 30px;
   max-width: 80%;
@@ -184,17 +203,6 @@ a.nav-buttons:hover{
   margin-bottom: 20px;
 }
 
-
-.skill-header{
-  text-align: center;
-  color:black;
-  margin-top:70px;
-  margin-bottom:10px;
-  font-weight: 100;
-  font-size: 5em;
-  font-family: font-family: 'Patua One', cursive;
-}
-
 .skill-header-skills{
   text-align: center;
   color:black;
@@ -205,12 +213,14 @@ a.nav-buttons:hover{
   font-family: font-family: 'Patua One', cursive;
 }
 
-
-.div-box{
+.div-box-skills{
   border-bottom: solid 1px #DBA24D;
   margin-bottom:50px;
   margin-top: 30px;
 }
+
+
+
 
 
 i.fa {
@@ -277,6 +287,7 @@ i.fa {
 
 .carousel-control {
   top:40%;
+  opacity: 10;
 }
 
 .center-block{
@@ -296,8 +307,6 @@ i.fa {
   text-shadow:none;
 }
 
-
-
 .carousel-control.left{
   background-image:none;
   font-size: 50px;
@@ -312,6 +321,13 @@ i.fa {
   font-weight: 300;
 }
 
+.cat-site-caption-hidden{
+  font-family: inherit;
+  color: #6C6C50;
+  text-shadow:none;
+  font-weight: 300;
+  display:none;
+}
 
 .sub-cat-site-caption{
   font-family: inherit;
@@ -319,6 +335,16 @@ i.fa {
   font-size: 20px;
   text-shadow:none;
   font-weight: 100;
+}
+
+
+.sub-cat-site-caption-hidden{
+  font-family: inherit;
+  color: #6C6C50;
+  font-size: 20px;
+  text-shadow:none;
+  font-weight: 100;
+  display:none;
 }
 
 .sub-cat-site-caption2{
@@ -382,7 +408,7 @@ margin-bottom: -10px;
   background-color: #6C6C50;
 }
 
-.div-box-white{
+.div-box-contact{
  border-bottom: solid 1px white;
  margin-bottom:150px;
  margin-top: 20px;
@@ -412,7 +438,7 @@ margin-bottom: -10px;
 }
 
 .contact-info2{
-  font-size:1em;
+  font-size:1.7em;
   color:white;
   letter-spacing: 2px;
   font-weight: 100;
@@ -656,49 +682,111 @@ a.contact-info2:hover, a.contact-info:hover{
   #index{
   background-image: url("../lights .jpg");
   width: 100%;
-  height: auto;
+  min-height: auto;
 }
 
   /*index section*/
   .name{
-    font-size: 2.4em;
+    font-size: 2.3em;
     margin-top: 75%;
   }
 .web{
-  font-size: 2.4em;
+  font-size: 2.3em;
 }
+
+/*skills section */
 
   .skill-header-skills, .skill-header, .skill-header-projects{
     font-size:2.4em;
+    margin-top: 30px;
   }
   .skill-header-contact{
     font-size:2.4em;
     color:white;
+    margin-top: 30px;
   }
 
   .portfolio-image{
     width:64%;
   }
 
+  /*projects section*/
+
   .carousel-caption{
  text-align: center;
  bottom: -330px;
  margin-right: 0px;
+ font-size:
 }
 
+.sub-cat-site-caption2{
+  font-family: inherit;
+  color: #6C6C50;
+  font-size: 18px;
+  text-shadow:none;
+  font-weight: 300;
+}
 
 
 .carousel-indicators{
   margin-bottom: -40px;
 }
 .click-to-view{
-
   background-color: #DBA24D;
   color:white;
   margin-bottom: 160px;
   margin-top: 0px;
 }
 
+.div-box-skills{
+  border-bottom: solid 1px #DBA24D;
+  margin-bottom:10px;
+  margin-top: 20px;
+}
+
+.div-box-contact{
+  border-bottom: solid 1px white;
+  margin-bottom:80px;
+  margin-top: 20px;
+}
+
+.head-shot{
+  margin-top: 5px;
+}
+
+.div-box-projects{
+  border-bottom: solid 1px #DBA24D;
+  margin-bottom:60px;
+  margin-top: 20px;
+}
+
+.skill-header-skills{
+  margin-top: 30px;
+}
+
+.sub-cat-site-caption{
+  display:none;
+}
+
+.sub-cat-site-caption-hidden{
+  font-family: inherit;
+  color: #6C6C50;
+  font-size: 20px;
+  text-shadow:none;
+  font-weight: 100;
+  display:inline;
+}
+
+.cat-site-caption-hidden{
+  font-family: inherit;
+  color: #6C6C50;
+  text-shadow:none;
+  font-weight: 300;
+  display:inline;
+}
+.cat-site-caption{
+  display:none;
+}
 
 }
 

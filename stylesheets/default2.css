@@ -589,7 +589,16 @@ a.contact-info2:hover, a.contact-info:hover{
 
    .skill-header-contact{
     color:white;
+    margin-top:30px;
+    margin-bottom:10px;
+    font-weight: 100;
+    font-size: 3em;
+    font-family: font-family: 'Patua One', cursive;
   }
+
+  .contact-container{
+  margin-bottom: 30px;
+}
 
 
   .head-shot{

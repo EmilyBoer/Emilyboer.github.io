@@ -88,46 +88,19 @@ a.nav-buttons:hover{
   margin-bottom: 220px;
 }
 
-@media (min-width: 768px){
-header {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }}
-
-@media (min-width:500){
-  header{
-background-attachment:fixed;
-}}
-
-header {
-    position: relative;
-    display: block;
-    height: auto;
-    width: auto;
-    background-color: #222222;
-    background: no-repeat center center;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding: 100px 0;
-}
 
 
-/*#index{
+#index{
   background-image: url("../lights .jpg");
   background-attachment:fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   width: 100%;
   min-height: 100%;
-}*/
+}
 
 
 
@@ -712,11 +685,34 @@ a.contact-info2:hover, a.contact-info:hover{
 /*mobile-size*/
 @media screen and (max-width:450px)  {
 
+@media (min-width: 768px){
+#index {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }}
+
+@media (min-width:500){
+
   #index{
-  background-image: url("../lights .jpg");
-  width: 100%;
-  min-height: auto;
+background-attachment:fixed;
+}}
+
+#index {
+    position: relative;
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: #222222;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 100px 0;
 }
+
 
   /*index section*/
   .name{

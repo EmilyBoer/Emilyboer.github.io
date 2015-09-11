@@ -685,19 +685,18 @@ a.contact-info2:hover, a.contact-info:hover{
 /*mobile-size*/
 @media screen and (max-width:450px)  {
 
-@media (min-width: 768px){
+/*@media (min-width: 768px){
 #index {
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
   }}
-
-@media (min-width:500){
-
+*/
+/*@media (min-width:500){
   #index{
 background-attachment:fixed;
-}}
+}}*/
 
 #index {
     position: relative;
@@ -711,16 +710,21 @@ background-attachment:fixed;
     background-size: cover;
     -o-background-size: cover;
     padding: 100px 0;
+    margin-bottom: 0px;
 }
+
+
 
 
   /*index section*/
   .name{
     font-size: 2.3em;
-    margin-top: 75%;
+    margin-top: 45%;
+    font-weight: 700;
   }
 .web{
-  font-size: 2.3em;
+  font-size: 2.2em;
+  font-weight: 700;
 }
 
 /*skills section */

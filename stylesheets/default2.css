@@ -9,15 +9,33 @@ html, body {
   overflow-x: hidden !important;
 }
 
-
-
 /*BODY*/
 
-/*NAV BAR*/
+/*elements on every page */
 
+.skill-header{
+  text-align: center;
+  color:black;
+  margin-top:70px;
+  margin-bottom:10px;
+  font-weight: 100;
+  font-size: 5em;
+  font-family: font-family: 'Patua One', cursive;
+}
+
+
+.div-box{
+  border-bottom: solid 1px #DBA24D;
+  margin-bottom:50px;
+  margin-top: 30px;
+}
+
+
+
+
+/*NAV BAR*/
 .nav-list{
   color:orange;
-
 }
 
 .navbar-brand{
@@ -31,25 +49,6 @@ html, body {
   font-weight: 200;
   font-family: font-family: 'Patua One', cursive;
   margin-right: 0px;
-
-
-}
-
-.div-box{
-  border-bottom: solid 1px #DBA24D;
-  margin-bottom:50px;
-  margin-top: 30px;
-}
-
-
-.skill-header{
-  text-align: center;
-  color:black;
-  margin-top:70px;
-  margin-bottom:10px;
-  font-weight: 100;
-  font-size: 5em;
-  font-family: font-family: 'Patua One', cursive;
 }
 
 a.nav-buttons:hover{
@@ -81,8 +80,9 @@ a.nav-buttons:hover{
 
 .nav{
   text-align: left;
-
 }
+
+/*INDEX SECTION*/
 
 .index-container{
   margin-bottom: 220px;
@@ -101,9 +101,6 @@ a.nav-buttons:hover{
   width: 100%;
   min-height: 100%;
 }
-
-
-
 
 .center-list{ /*line up name, button, line on page*/
   text-align: center;
@@ -191,7 +188,7 @@ a.nav-buttons:hover{
   font-weight: 100;
 }
 
-/*skills */
+/*SKILL SECTION */
 
 #skills{
   background-color:#f3f3f3;
@@ -228,6 +225,7 @@ a.nav-buttons:hover{
 
 
 
+/*languages */
 
 i.fa {
   font-size: 40px;
@@ -277,6 +275,18 @@ i.fa {
   margin-bottom: 50px;
 }
 
+.project-section{
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.portfolio-image{
+  width:75%;
+}
+
+
+/*slides */
+
 .slide-image{
   margin-bottom: 140px;
 }
@@ -290,7 +300,6 @@ i.fa {
   margin-bottom: 20px;
 }
 
-
 .carousel-control {
   top:40%;
   opacity: 10;
@@ -299,12 +308,6 @@ i.fa {
 .center-block{
   text-align: center;
 }
-
-.project-section{
-  background-color: white;
-  margin-bottom: 30px;
-}
-
 
 .carousel-control.right {
   background-image:none;
@@ -384,11 +387,11 @@ i.fa {
 }
 
 .carousel-indicators li {
-   border:1px solid #DBA24D;
+ border:1px solid #DBA24D;
 }
 
 .carousel-indicators {
-margin-bottom: -10px;
+  margin-bottom: -10px;
 }
 
 
@@ -407,7 +410,7 @@ margin-bottom: -10px;
 }
 
 .contact-container{
-  margin-bottom: 120px;
+  margin-bottom: 170px;
 }
 
 .contact-section{
@@ -430,11 +433,9 @@ margin-bottom: -10px;
   font-family: font-family: 'Patua One', cursive;
 }
 
-
 .center{
   text-align: center;
 }
-
 
 .contact-info{
   font-size:1.7em;
@@ -453,12 +454,6 @@ margin-bottom: -10px;
 a.contact-info2:hover, a.contact-info:hover{
   text-decoration: none;
   color:white;
-}
-
-.border{
-  border-bottom: solid 1px white;
-  margin-top: 60px;
-  margin-bottom: 20px;
 }
 
 .fa-envelope{
@@ -526,11 +521,11 @@ a.contact-info2:hover, a.contact-info:hover{
 /*tablet-size lrg */
 @media screen and (max-width:991px)  {
 
+  /*ABOUT*/
   .head-shot{
     max-width: 100%;
     max-height: 100%;
     margin-bottom: 50px;
-
   }
 
   .bio{
@@ -545,17 +540,39 @@ a.contact-info2:hover, a.contact-info:hover{
   .web{
     font-size: 6.2em;
   }
-
 }
 
 
 /*tablet-size med*/
 @media screen and (max-width:768px)  {
 
+  /*ALL SECTIONS */
+  .section-header{
+    font-size:3em;
+  }
+
+  .skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
+    margin-top:70px;
+    margin-bottom:10px;
+    font-weight: 100;
+    font-size: 3em;
+    font-family: font-family: 'Patua One', cursive;
+  }
+
+
+  /*INDEX SECTION*/
   .navbar{
     background-color: white;
   }
+  .name{
+    font-size: 5em;
+    margin-top: 38%;
+  }
+  .web{
+    font-size: 4.8em;
+  }
 
+  /*SKILLS SECTION*/
   i.fa {
     font-size: 35px;
   }
@@ -564,30 +581,7 @@ a.contact-info2:hover, a.contact-info:hover{
     font-size:15px;
   }
 
-  .section-header{
-    font-size:3em;
-  }
-
-  /*index section*/
-   .name{
-    font-size: 5em;
-    margin-top: 38%;
-  }
-  .web{
-    font-size: 4.8em;
-  }
-
-  /*  about section*/
-
- .skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
-    margin-top:70px;
-    margin-bottom:10px;
-    font-weight: 100;
-    font-size: 3em;
-    font-family: font-family: 'Patua One', cursive;
-  }
-
-   .skill-header-contact{
+  .skill-header-contact{
     color:white;
     margin-top:20px;
     margin-bottom:10px;
@@ -596,10 +590,8 @@ a.contact-info2:hover, a.contact-info:hover{
     font-family: font-family: 'Patua One', cursive;
   }
 
-  .contact-container{
-  margin-bottom: 30px;
-}
 
+  /* ABOUT SECTION*/
 
   .head-shot{
    margin-top: 30px;
@@ -607,46 +599,25 @@ a.contact-info2:hover, a.contact-info:hover{
    max-height: 100%;
  }
 
- .about-container{
+ /*  CONTACT SECTION*/
+ .contact-container{
+  margin-bottom: 30px;
+}
+
+.about-container{
   margin-bottom: 20px;
 }
 
 .skills-container{
   margin-bottom: 5px;
 }
-
-
 }
+
+
 
 
 /*tablet-size sm*/
 @media screen and (max-width:580px)  {
-
-
-  /*index section*/
-  .name{
-    font-size: 3em;
-    margin-top: 55%;
-  }
-   .web{
-    font-size: 3em;
-  }
-
-  /*about section*/
-  .bio{
-    margin-bottom: 10px;
-  }
-
-  .about-container{
-    margin-bottom: 20px;
-  }
-
-  .head-shot{
-   margin-top: 20px;
-   max-width: 80%;
-   max-height: 100%;
-   margin-bottom: 10px;
- }
 
  .skill-header-skills, .skill-header-projects{
   text-align: center;
@@ -657,19 +628,51 @@ a.contact-info2:hover, a.contact-info:hover{
   font-size: 3em;
   font-family: font-family: 'Patua One', cursive;
 }
- .skill-header-contact{
-    font-size:3em;
-    color:white;
-  }
+.skill-header-contact{
+  font-size:3em;
+  color:white;
+}
 
+/*  INDEX SECTION*/
+.name{
+  font-size: 3em;
+  margin-top: 55%;
+}
+.web{
+  font-size: 3em;
+}
 
 .get-in-touch{
   background-color:white;
 }
 
- /*skills section*/
 
- /*projects section*/
+/*ABOUT SECTION*/
+.about-container{
+  margin-bottom: 20px;
+}
+
+.bio{
+  margin-bottom: 10px;
+}
+
+.head-shot{
+ margin-top: 20px;
+ max-width: 80%;
+ max-height: 100%;
+ margin-bottom: 10px;
+}
+
+
+
+/*SKILLS SECTION*/
+
+
+/*PROJECT SECTION*/
+.project-section{
+  margin-bottom: 60px;
+}
+
 .carousel-caption{
  text-align: center;
  bottom: -200px;
@@ -682,11 +685,6 @@ a.contact-info2:hover, a.contact-info:hover{
 .carousel-indicators{
   margin-bottom: -40px;
 }
-
-.project-section{
-  margin-bottom: 60px;
-}
-
 }
 
 
@@ -694,92 +692,8 @@ a.contact-info2:hover, a.contact-info:hover{
 /*mobile-size*/
 @media screen and (max-width:450px)  {
 
-/*@media (min-width: 768px){
-#index {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }}
-*/
-/*@media (min-width:500){
-  #index{
-background-attachment:fixed;
-}}*/
 
-.index-container{
-  margin-bottom: 30px;
-}
-
-
-
-
-#index {
-    position: relative;
-    display: block;
-    height: auto;
-    width: auto;
-    background-color: #222222;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding: 100px 0;
-    margin-bottom: 0px;
-}
-
-#contact{
-    position: relative;
-    display: block;
-    height: auto;
-    width: auto;
-    background-color: #222222;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding: 100px 0;
-    margin-bottom: 0px;
-}
-
-
-
-
-  /*index section*/
-  .name{
-    font-size: 2.2em;
-    margin-top: 48%;
-    font-weight: 700;
-  }
-.web{
-  font-size: 2.1em;
-  font-weight: 700;
-}
-
-.get-in-touch{
-  margin-top: 0px;
-}
-
-.contact-info{
-  font-size:1.2em;
-  color:white;
-  letter-spacing: 2px;
-  font-weight: 300;
-}
-}
-
-.contact-info2{
-  font-size:1.2em;
-  color:white;
-  letter-spacing: 2px;
-  font-weight: 300;
-}
-}
-
-/*skills section */
-
+  /*ALL SITES */
   .skill-header-contact, .skill-header-skills, .skill-header, .skill-header-projects{
     font-size:2.4em;
     margin-top: 30px;
@@ -789,20 +703,78 @@ background-attachment:fixed;
   .skill-header-contact{
     color:white;
   }
-
-  .portfolio-image{
-    width:64%;
+  /*skills*/
+  .div-box-skills{
+    border-bottom: solid 1px #DBA24D;
+    margin-bottom:10px;
+    margin-top: 20px;
   }
 
-  /*projects section*/
+  /*contact*/
+  .div-box-contact{
+    border-bottom: solid 1px white;
+    margin-bottom:80px;
+    margin-top: 20px;
+  }
 
-  .carousel-caption{
+  /*about*/
+  .div-box-projects{
+    border-bottom: solid 1px #DBA24D;
+    margin-bottom:60px;
+    margin-top: 20px;
+  }
+
+
+  /*INDEX*/
+  .index-container{
+    margin-bottom: 30px;
+  }
+
+  #index {
+    position: relative;
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: #222222;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 0px;
+  }
+
+  .name{
+    font-size: 2.2em;
+    margin-top: 48%;
+    font-weight: 700;
+  }
+  .web{
+    font-size: 2.1em;
+    font-weight: 700;
+  }
+
+  .get-in-touch{
+    margin-top: -5px;
+  }
+
+
+
+
+
+/*PROJECTS SECTION*/
+
+.portfolio-image{
+  width:55%;
+}
+
+.carousel-caption{
  text-align: center;
  bottom: -330px;
  margin-right: 0px;
  font-size:
 }
-
 
 .cat-site-caption{
   display:none;
@@ -819,7 +791,6 @@ background-attachment:fixed;
   text-shadow:none;
   font-weight: 300;
 }
-
 
 .sub-cat-site-caption-hidden{
   font-family: inherit;
@@ -838,38 +809,48 @@ background-attachment:fixed;
   display:inline;
 }
 
-
 .carousel-indicators{
   margin-bottom: -40px;
 }
+
 .click-to-view{
   background-color: #DBA24D;
   color:white;
   margin-bottom: 160px;
   margin-top: 0px;
+  font-size: 23px;
+}
+ /*CONTACT SECTION*/
+  #contact{
+    position: relative;
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: #222222;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 100px 0;
+    margin-bottom: 0px;
+  }
+
+  .contact-info{
+    font-size:1.2em;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  .contact-info2{
+  font-size:1.6em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.contact-container{
+  margin-bottom: 120px;
+}
 }
 
-.div-box-skills{
-  border-bottom: solid 1px #DBA24D;
-  margin-bottom:10px;
-  margin-top: 20px;
-}
-
-.div-box-contact{
-  border-bottom: solid 1px white;
-  margin-bottom:80px;
-  margin-top: 20px;
-}
-
-.head-shot{
-  margin-top: 5px;
-}
-
-.div-box-projects{
-  border-bottom: solid 1px #DBA24D;
-  margin-bottom:60px;
-  margin-top: 20px;
-}
-
-}
 

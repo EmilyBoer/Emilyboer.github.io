@@ -579,7 +579,7 @@ a.contact-info2:hover, a.contact-info:hover{
 
   /*  about section*/
 
- .skill-header, .skill-header-skills .skill-header-projects{
+ .skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
     margin-top:70px;
     margin-bottom:10px;
     font-weight: 100;
@@ -588,7 +588,6 @@ a.contact-info2:hover, a.contact-info:hover{
   }
 
    .skill-header-contact{
-    font-size:3em;
     color:white;
   }
 
@@ -703,9 +702,6 @@ background-attachment:fixed;
   margin-bottom: 30px;
 }
 
-.contact-container{
-    margin-bottom: 30px;
-}
 
 
 

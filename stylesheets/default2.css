@@ -592,6 +592,7 @@ a.contact-info2:hover, a.contact-info:hover{
     color:white;
   }
 
+
   .head-shot{
    margin-top: 30px;
    max-width: 60%;
@@ -698,6 +699,16 @@ a.contact-info2:hover, a.contact-info:hover{
 background-attachment:fixed;
 }}*/
 
+.index-container{
+  margin-bottom: 30px;
+}
+
+.contact-container{
+    margin-bottom: 30px;
+}
+
+
+
 #index {
     position: relative;
     display: block;
@@ -743,33 +754,36 @@ background-attachment:fixed;
 }
 
 .get-in-touch{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .contact-info{
-  font-size:1.5em;
+  font-size:1.2em;
   color:white;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 300;
 }
 }
 
 .contact-info2{
-  font-size:1.5em;
+  font-size:1.2em;
   color:white;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 300;
 }
 }
 
 /*skills section */
 
-  .skill-header-skills, .skill-header, .skill-header-projects{
+  .skill-header-contact, .skill-header-skills, .skill-header, .skill-header-projects{
     font-size:2.4em;
     margin-top: 30px;
   }
+
+  .skill-header-skills{
+  margin-top: 30px;
+}
   .skill-header-contact{
-    font-size:2.4em;
     color:white;
     margin-top: 30px;
   }
@@ -787,12 +801,39 @@ background-attachment:fixed;
  font-size:
 }
 
+
+.cat-site-caption{
+  display:none;
+}
+
+.sub-cat-site-caption{
+  display:none;
+}
+
 .sub-cat-site-caption2{
   font-family: inherit;
   color: #6C6C50;
   font-size: 18px;
   text-shadow:none;
   font-weight: 300;
+}
+
+
+.sub-cat-site-caption-hidden{
+  font-family: inherit;
+  color: #6C6C50;
+  font-size: 18px;
+  text-shadow:none;
+  font-weight: 100;
+  display:inline;
+}
+
+.cat-site-caption-hidden{
+  font-family: inherit;
+  color: #6C6C50;
+  text-shadow:none;
+  font-weight: 300;
+  display:inline;
 }
 
 
@@ -826,34 +867,6 @@ background-attachment:fixed;
   border-bottom: solid 1px #DBA24D;
   margin-bottom:60px;
   margin-top: 20px;
-}
-
-.skill-header-skills{
-  margin-top: 30px;
-}
-
-.sub-cat-site-caption{
-  display:none;
-}
-
-.sub-cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 20px;
-  text-shadow:none;
-  font-weight: 100;
-  display:inline;
-}
-
-.cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  text-shadow:none;
-  font-weight: 300;
-  display:inline;
-}
-.cat-site-caption{
-  display:none;
 }
 
 }

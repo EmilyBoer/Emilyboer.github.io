@@ -696,7 +696,7 @@ a.contact-info2:hover, a.contact-info:hover{
   /*ALL SITES */
  .skill-header-skills, .skill-header, .skill-header-projects{
     font-size:2.4em;
-    margin-top: 50px;
+    margin-top: 70px;
   }
   .skill-header-contact{
     font-size:2.4em;
@@ -853,7 +853,7 @@ a.contact-info2:hover, a.contact-info:hover{
   font-weight: 300;
 }
 .contact-container{
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 .icons{
   margin-top: -20px;

@@ -34,8 +34,13 @@ html, body {
 
 
 /*NAV BAR*/
-.nav-list{
-  color:orange;
+
+.navbar-default .navbar-nav > li > a:hover {
+ color:#DBA24D;
+}
+
+ .navbar-default:hover  a.navbar-brand:hover{
+  color:#DBA24D;
 }
 
 .navbar-brand{

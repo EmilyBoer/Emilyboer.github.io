@@ -397,6 +397,9 @@ i.fa {
   font-weight: 100;
   position:relative;
   text-align: center;
+    transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
    
 }
 
@@ -862,11 +865,16 @@ a.contact-info2:hover, a.contact-info:hover{
 }
 
 .click-to-view{
+  letter-spacing: 1px;
   background-color: #DBA24D;
   color:white;
   margin-bottom: 160px;
   margin-top: 0px;
   font-size: 23px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+
 
 }
  /*CONTACT SECTION*/

@@ -154,8 +154,8 @@ a.nav-buttons:hover{
 .get-in-touch{
   margin-top: 40px;
   background-color: transparent;
-  border:2px white solid;
-  color: #777;
+  border:1px white solid;
+  color: white;
   font-size:25px;
   font-family: font-family: 'Patua One', cursive;
   font-weight: 100;
@@ -387,8 +387,8 @@ i.fa {
   margin-top: 10px;
   margin-bottom:30px;
   background-color: transparent;
-  border:2px gray solid;
-  color: gray;
+  border:1px #DBA24D solid;
+  color: #DBA24D;
   font-size:25px;
   font-family: font-family: 'Patua One', cursive;
   font-weight: 100;
@@ -397,8 +397,8 @@ i.fa {
 }
 
 .click-to-view:hover{
-  background-color:gray;
-  border:1px  gray solid;
+  background-color:#DBA24D;
+  border:1px  #DBA24D solid;
   color:white;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;

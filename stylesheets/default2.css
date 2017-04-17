@@ -152,6 +152,7 @@ a.nav-buttons:hover{
 
 
 .get-in-touch{
+  letter-spacing: 1px;
   margin-top: 40px;
   background-color: transparent;
   border:1px white solid;
@@ -169,6 +170,7 @@ a.nav-buttons:hover{
 
 .get-in-touch:hover{
   background-color:white;
+  letter-spacing: 2px;
 }
 
 
@@ -394,12 +396,14 @@ i.fa {
   font-weight: 100;
   position:relative;
   text-align: center
+    letter-spacing: 1px;
 }
 
 .click-to-view:hover{
   background-color:#DBA24D;
   border:1px  #DBA24D solid;
   color:white;
+    letter-spacing: 2px;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -862,6 +866,7 @@ a.contact-info2:hover, a.contact-info:hover{
   margin-bottom: 160px;
   margin-top: 0px;
   font-size: 23px;
+
 }
  /*CONTACT SECTION*/
   #contact{

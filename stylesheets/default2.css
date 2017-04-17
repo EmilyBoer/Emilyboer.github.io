@@ -40,6 +40,9 @@ html, body {
     transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
+ letter-spacing: .2vw;
+
+
 }
 
  .navbar-default:hover  a.navbar-brand:hover{
@@ -47,11 +50,13 @@ html, body {
      transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
+   letter-spacing: .4vw;
 }
 
 .navbar-brand{
   font-size: 30px;
   font-weight: 100;
+  letter-spacing: .4vw;
 }
 
 .navbar-default{
@@ -68,6 +73,7 @@ a.nav-buttons:hover{
 
 .navbar-nav{
   list-style: none;
+   letter-spacing: .2vw;
 }
 
 .navbar{

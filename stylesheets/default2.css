@@ -9,6 +9,11 @@ html, body {
   overflow-x: hidden !important;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 /*BODY*/
 
 /*elements on every page */
@@ -34,20 +39,20 @@ html, body {
 
 .navbar-default .navbar-nav > li > a:hover {
  color:#DBA24D;
-    transition: all 0.3s linear;
-   -webkit-transition: all 0.3s linear;
-   -moz-transition: all 0.3s linear;
+ transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
  letter-spacing: .2vw;
 
 
 }
 
- .navbar-default:hover  a.navbar-brand:hover{
+.navbar-default:hover  a.navbar-brand:hover{
   color:#DBA24D;
-     transition: all 0.3s linear;
-   -webkit-transition: all 0.3s linear;
-   -moz-transition: all 0.3s linear;
-   letter-spacing: .4vw;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  letter-spacing: .4vw;
 }
 
 .navbar-brand{
@@ -70,7 +75,7 @@ a.nav-buttons:hover{
 
 .navbar-nav{
   list-style: none;
-   letter-spacing: .2vw;
+  letter-spacing: .2vw;
 }
 
 .navbar{
@@ -162,10 +167,11 @@ a.nav-buttons:hover{
   font-weight: 100;
   position:relative;
   text-align: center;
-     transition: all 0.3s linear;
-   -webkit-transition: all 0.3s linear;
-   -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
 }
+
 
 
 .get-in-touch:hover{
@@ -272,6 +278,11 @@ i.fa {
 
 
 /*PROJECT SECTION*/
+
+#projects{
+  margin-bottom:70px;
+}
+
 .skill-header-projects{
   text-align: center;
   color:black;
@@ -312,10 +323,7 @@ i.fa {
   margin-bottom: 140px;
 }
 
-.carousel-caption{
- text-align: center;
- bottom: -170px;
-}
+
 
 .caption{
   margin-bottom: 20px;
@@ -346,68 +354,127 @@ i.fa {
 
 .cat-site-caption{
   font-family: inherit;
-  color: #6C6C50;
+  color: black
   text-shadow:none;
   font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 2.9vw;
 }
 
-.cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  text-shadow:none;
-  font-weight: 300;
-  display:none;
+.owl-dots {
+    margin-top: 0px;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    margin-top: -20px
+  }
+
+div.owl-dot.active {
+    border: 5px black solid;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 1.2vw;
+  }
+
+div.owl-dot {
+     border: 5px silver solid; 
+    border-radius: 6px;
+    display: inline-block;
+    margin: 1.2vw;
 }
 
-.sub-cat-site-caption{
+.owl-carousel .owl-nav .owl-prev img {
+    max-width: 25px;
+    z-index: 1002;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 2%;
+}
+
+
+.owl-carousel .owl-nav .owl-next img{
+    margin-left: 95%;
+    max-width: 25px;
+    z-index: 1002;
+    position: absolute;
+    margin-top: -20%;
+}
+
+
+
+ .project-name{
   font-family: inherit;
-  color: #6C6C50;
+  color: black;
   font-size: 20px;
   text-shadow:none;
-  font-weight: 100;
+  font-weight: 200;
+  font-size: 3vw;
+  margin-top: 7%;
+
 }
 
-
-.sub-cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 20px;
-  text-shadow:none;
-  font-weight: 100;
-  display:none;
-}
 
 .sub-cat-site-caption2{
   font-family: inherit;
   color: #6C6C50;
-  font-size: 20px;
+  font-size: 2vw;
   text-shadow:none;
-  font-weight: 300;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 .click-to-view{
-   letter-spacing: 1px;
-  margin-top: 10px;
-  margin-bottom:30px;
-  background-color: transparent;
-  border:1px #DBA24D solid;
-  color: #DBA24D;
-  font-size:25px;
+ letter-spacing: 1px;
+ margin-top: 10px;
+ margin-bottom:30px;
+ background-color:white;
+ border:1px  #777 solid;
+ color:#777;
+ font-size:25px;
+ font-family: font-family: 'Patua One', cursive;
+ font-weight: 100;
+ position:relative;
+ text-align: center;
+ transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
+
+}
+
+a.click-to-view-text{
+  color:black;
   font-family: font-family: 'Patua One', cursive;
-  font-weight: 100;
-  position:relative;
-  text-align: center;
-    transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-   
+  letter-spacing: 2px;
+  font-size: 2vw;
+   transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
+ font-weight: 200;
+
+}
+
+a.click-to-view-text:visted, a.click-to-view-text:focus, a.click-to-view-text:active{
+   color:black;
+}
+
+.click-to-view-text:hover{
+  color:black;
+  font-family: font-family: 'Patua One', cursive;
+  letter-spacing: 3px;
+  font-size: 3vw;
+  text-decoration: none;
+
 }
 
 .click-to-view:hover{
-  background-color:#DBA24D;
-  border:1px  #DBA24D solid;
-  color:white;
-    letter-spacing: 2px;
+  background-color:white;
+  border:1px  #777 solid;
+  color:#777;
+  letter-spacing: 2px;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -554,15 +621,125 @@ a.contact-info2:hover, a.contact-info:hover{
 }
 
 .container-fluid{
-    transition: all 0.3s linear;
+  transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
 }
 
-
-
 /*<!-- media queries -->*/
 
+/*
+NEW CODE FOR OVERLAY*/
+/*.caption-hidden{
+  /*display:none;*/
+
+
+
+
+/*  .image-responsive:hover {
+    opacity: .4;
+  }
+
+  .thumb > p {
+    position: absolute;
+    z-index: 1000;
+    margin: 0 auto;
+    width:95%;
+    line-height: 100%;
+    margin-top:20%;
+    text-align:center;
+    }*/
+
+
+/*  p.caption-style{
+    margin-top:-10%; 
+    z-index: 1000;
+    width:95%;
+    line-height: 100%;
+    text-align:center;
+    color:black;
+    display:inline;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .caption:hover > p{
+   margin-top:-10%; 
+   z-index: 1000;
+   width:95%;
+   line-height: 100%;
+   text-align:center;
+   color:red;
+   display:inline;
+   font-family: 'Lato', sans-serif;
+   font-weight: 200;
+   font-size: 18px;
+   letter-spacing: 1px;
+ }
+
+
+ .caption:hover > p.caption-style{
+   display:inline;
+   color:black;
+   }*/
+
+   /*origin overlay code*/
+
+   /*END NEW COLD FOR OVERLAY*/
+
+   /*TEST CODE FOR OVERLAY*/
+
+   .project_container {
+    max-width: 80%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .project_image {
+    width: 100%;
+  }
+
+  .project_media {
+    position:relative;
+  }
+
+  .project_media .overlay {
+   font-family: "Helvetica Neue", Helvetica;
+   font-weight: 100;
+   letter-spacing: 1px;
+   font-size: 2vw;
+   text-align:center;
+   position:absolute;
+   top:50%;
+   width:100%;
+   transform:translate(0%,-50%);
+   -webkit-transform:translate(0%,-50%);
+   -ms-transform:translate(0%,-50%);
+   color:white;
+   display:none;
+   transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+ }
+
+ .project_container:hover img {
+  filter: opacity(0.3);
+  -webkit-filter: opacity(0.3) ;
+  -ms-filter:opacity(0.3);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+.project_container:hover .overlay {
+  display:block;
+}
+
+
+
+/*END TEST CODE FOR OVERLAY*/
 
 
 /*tablet-size lrg */
@@ -593,6 +770,54 @@ a.contact-info2:hover, a.contact-info:hover{
 /*tablet-size med*/
 @media screen and (max-width:768px)  {
 
+  a.click-to-view-text, {
+  color:black;
+  font-family: font-family: 'Patua One', cursive;
+  letter-spacing: 2px;
+  font-size: 3vw;
+   transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
+ font-weight: 200;
+
+}
+
+a.click-to-view-text:hover, {
+  color:black;
+  font-family: font-family: 'Patua One', cursive;
+  letter-spacing: 3px;
+  font-size: 4vw;
+  text-decoration: none;
+
+}
+
+
+    .project-name{
+  font-family: inherit;
+  color: black;
+  text-shadow:none;
+  font-weight: 200;
+  font-size: 6vw;
+  letter-spacing: 1px;
+}
+
+.owl-prev, .owl-next{
+  display: none;
+}
+
+
+
+.sub-cat-site-caption2 {
+    font-family: inherit;
+    color: #6C6C50;
+    font-size: 4vw;
+    text-shadow: none;
+    font-weight: 100;
+    text-align: center;
+   letter-spacing: 1px;
+}
+
+
   /*ALL SECTIONS */
   .section-header{
     font-size:3em;
@@ -606,6 +831,9 @@ a.contact-info2:hover, a.contact-info:hover{
     font-family: font-family: 'Patua One', cursive;
   }
 
+  .owl-dots{
+   margin-top:0px;
+  }
 
   /*INDEX SECTION*/
   .navbar{
@@ -666,6 +894,7 @@ a.contact-info2:hover, a.contact-info:hover{
 /*tablet-size sm*/
 @media screen and (max-width:580px)  {
 
+
  .skill-header-skills, .skill-header-projects{
   text-align: center;
   color:black;
@@ -679,6 +908,39 @@ a.contact-info2:hover, a.contact-info:hover{
   font-size:3em;
   color:white;
 }
+
+.project-name{
+margin-top: 0px;
+}
+
+ 
+a.click-to-view-text:hover {
+  color:black;
+  font-family: font-family: 'Patua One', cursive;
+  letter-spacing: 3px;
+  font-size: 4vw;
+  text-decoration: none;
+
+}
+
+ a.click-to-view-text{
+  color:black;
+  font-family: font-family: 'Patua One', cursive;
+  letter-spacing: 2px;
+  font-size: 5vw;
+   transition: all 0.3s linear;
+ -webkit-transition: all 0.3s linear;
+ -moz-transition: all 0.3s linear;
+ font-weight: 200;
+
+}
+
+
+.owl-dots{
+  margin-top: 10px;
+}
+
+
 
 /*  INDEX SECTION*/
 .name{
@@ -721,9 +983,9 @@ a.contact-info2:hover, a.contact-info:hover{
   margin-bottom: 60px;
 }
 
-.carousel-caption{
+.carousel-div{
  text-align: center;
- bottom: -200px;
+
 }
 
 .click-to-view{
@@ -742,7 +1004,7 @@ a.contact-info2:hover, a.contact-info:hover{
 
 
   /*ALL SITES */
- .skill-header-skills, .skill-header, .skill-header-projects{
+  .skill-header-skills, .skill-header, .skill-header-projects{
     font-size:2.4em;
     margin-top: 70px;
   }
@@ -815,20 +1077,19 @@ a.contact-info2:hover, a.contact-info:hover{
 
 
 
-/*PROJECTS SECTION*/
+  /*PROJECTS SECTION*/
 
-.portfolio-image{
-  width:55%;
-}
+  .portfolio-image{
+    width:55%;
+  }
 
-.carousel-caption{
- text-align: center;
- bottom: -330px;
- margin-right: 0px;
- font-size:
-}
+  .carousel-div{
+   text-align: center;
+   font-size:
 
-.cat-site-caption{
+ }
+
+ .cat-site-caption{
   display:none;
 }
 
@@ -836,30 +1097,10 @@ a.contact-info2:hover, a.contact-info:hover{
   display:none;
 }
 
-.sub-cat-site-caption2{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 18px;
-  text-shadow:none;
-  font-weight: 300;
-}
 
-.sub-cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  font-size: 18px;
-  text-shadow:none;
-  font-weight: 100;
-  display:inline;
-}
 
-.cat-site-caption-hidden{
-  font-family: inherit;
-  color: #6C6C50;
-  text-shadow:none;
-  font-weight: 300;
-  display:inline;
-}
+
+
 
 .carousel-indicators{
   margin-bottom: -40px;
@@ -867,8 +1108,8 @@ a.contact-info2:hover, a.contact-info:hover{
 
 .click-to-view{
   letter-spacing: 1px;
-  background-color: #DBA24D;
-  color:white;
+  background-color: white;
+  color:black;
   margin-bottom: 160px;
   margin-top: 0px;
   font-size: 23px;
@@ -878,29 +1119,29 @@ a.contact-info2:hover, a.contact-info:hover{
 
 
 }
- /*CONTACT SECTION*/
-  #contact{
-    position: relative;
-    display: block;
-    height: auto;
-    width: auto;
-    background-color: #222222;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    padding: 100px 0;
-    margin-bottom: 0px;
-  }
+/*CONTACT SECTION*/
+#contact{
+  position: relative;
+  display: block;
+  height: auto;
+  width: auto;
+  background-color: #222222;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 100px 0;
+  margin-bottom: 0px;
+}
 
-  .contact-info{
-    font-size:1.2em;
-    color:white;
-    letter-spacing: 2px;
-    font-weight: 300;
-  }
-  .contact-info2{
+.contact-info{
+  font-size:1.2em;
+  color:white;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.contact-info2{
   font-size:1.3em;
   color:white;
   letter-spacing: 2px;

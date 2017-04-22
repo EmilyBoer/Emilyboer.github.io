@@ -9,8 +9,7 @@ html, body {
   overflow-x: hidden !important;
 }
 
-a:hover, a:visited, a:link, a:active
-{
+a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 }
 
@@ -21,13 +20,23 @@ a:hover, a:visited, a:link, a:active
 .skill-header{
   text-align: center;
   color:black;
-  margin-top:70px;
+  margin-top:100px;
   margin-bottom:10px;
   font-weight: 100;
-  font-size: 5em;
+  font-size: 4em;
   /*font-family: 'Patua One', cursive;*/
 }
 
+.navbar-default .navbar-toggle {
+     border-color: transparent; 
+}
+
+.navbar-default .navbar-toggle:hover {
+     background-color: transparent; 
+}
+.navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:visited, .navbar-default .navbar-toggle:focus{
+     background-color: transparent; 
+}
 
 .div-box{
   border-bottom: solid 1px #DBA24D;
@@ -110,7 +119,7 @@ a.nav-buttons:hover{
 
 
 #index{
-  background-image: url("../lights .jpg");
+  background-image: url("lights .jpg");
   background-attachment:fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -132,27 +141,66 @@ a.nav-buttons:hover{
   text-align: center;
 }
 
+@keyframes fadein {
+    from { opacity: 0; letter-spacing: 1vw;}
+    to   { opacity: 1; letter-spacing: .5vw;}
+}
 
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; letter-spacing: 1vw;}
+    to   { opacity: 1; letter-spacing: .5vw;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; letter-spacing: 1vw;}
+    to   { opacity: 1; letter-spacing: .5vw;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; letter-spacing: 1vw;}
+    to   { opacity: 1; letter-spacing: .5vw;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; letter-spacing: 4vw;}
+    to   { opacity: 1; letter-spacing: .5vw;}
+}
 /*name and button*/
 
 .name{ /*<--title and paragraph-->*/
-  font-size: 7em;
+  font-size: 6vw;
+  letter-spacing: .5vw;
   font-weight: 400;
   color: white;
   font-family: font-family: 'Patua One', cursive;
   margin-left: 0px;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 220px;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+   animation: fadein 2s;
 }
 
 .web{ /*<--title and paragraph-->*/
-  font-size: 7em;
+  letter-spacing: .5vw;
+  font-size: 6vw;
   font-weight: 400;
   color: white;
   font-family: font-family: 'Patua One', cursive;
   margin-left: 0px;
   text-align: center;
   margin-top: 10px;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 
@@ -235,10 +283,10 @@ a.nav-buttons:hover{
 .skill-header-skills{
   text-align: center;
   color:black;
-  margin-top:70px;
+   margin-top:100px;
   margin-bottom:10px;
   font-weight: 100;
-  font-size: 5em;
+  font-size: 4em;
   font-family: font-family: 'Patua One', cursive;
 }
 
@@ -286,10 +334,10 @@ i.fa {
 .skill-header-projects{
   text-align: center;
   color:black;
-  margin-top:70px;
+   margin-top:100px;
   margin-bottom:10px;
   font-weight: 100;
-  font-size: 5em;
+  font-size: 4em;
   font-family: font-family: 'Patua One', cursive;
 }
 
@@ -413,6 +461,19 @@ div.owl-dot {
 
 }
 
+.sub-cat-site-caption3{
+  font-family: inherit;
+  color: #6C6C50;
+  font-size: 2vw;
+  text-shadow:none;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 
 .sub-cat-site-caption2{
   font-family: inherit;
@@ -496,7 +557,7 @@ a.click-to-view-text:visted, a.click-to-view-text:focus, a.click-to-view-text:ac
 
 /*CONTACT SECTION*/
 #contact{
-  background-image:url("../citystreet.png");
+  background-image:url("citystreet.png");
   background-attachment:fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -524,10 +585,10 @@ a.click-to-view-text:visted, a.click-to-view-text:focus, a.click-to-view-text:ac
 .skill-header-contact{
   text-align: center;
   color:white;
-  margin-top:70px;
+   margin-top:100px;
   margin-bottom:10px;
   font-weight: 100;
-  font-size: 5em;
+  font-size: 4em;
   font-family: font-family: 'Patua One', cursive;
 }
 
@@ -738,6 +799,13 @@ NEW CODE FOR OVERLAY*/
 }
 
 
+@media screen and (min-width:1500px)  {
+  .web, .name{
+    font-size:4.5vw;
+  }
+
+}
+
 
 /*END TEST CODE FOR OVERLAY*/
 
@@ -761,12 +829,31 @@ NEW CODE FOR OVERLAY*/
     margin-bottom: 50px;
   }
 
-  .web{
-    font-size: 6.2em;
-  }
+
+
+  .sub-cat-site-caption3{
+  font-family: inherit;
+  color: #6C6C50;
+  font-size: 2vw;
+  text-shadow:none;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.name{
+    margin-top: 220px;
+}
 }
 
+@media screen and (max-width:800px) {
 
+.name, .web{
+  font-size:8vw;
+}
+}
 /*tablet-size med*/
 @media screen and (max-width:768px)  {
 
@@ -781,6 +868,8 @@ NEW CODE FOR OVERLAY*/
  font-weight: 200;
 
 }
+
+
 
 a.click-to-view-text:hover, {
   color:black;
@@ -807,7 +896,7 @@ a.click-to-view-text:hover, {
 
 
 
-.sub-cat-site-caption2 {
+.sub-cat-site-caption3, .sub-cat-site-caption2 {
     font-family: inherit;
     color: #6C6C50;
     font-size: 4vw;
@@ -839,13 +928,18 @@ a.click-to-view-text:hover, {
   .navbar{
     background-color: white;
   }
+
+  .div-box{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+
   .name{
-    font-size: 5em;
-    margin-top: 38%;
-  }
-  .web{
-    font-size: 4.8em;
-  }
+    margin-top: 280px;
+}
+
+  
 
   /*SKILLS SECTION*/
   i.fa {
@@ -881,6 +975,7 @@ a.click-to-view-text:hover, {
 
 .about-container{
   margin-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .skills-container{
@@ -894,11 +989,14 @@ a.click-to-view-text:hover, {
 /*tablet-size sm*/
 @media screen and (max-width:580px)  {
 
+.skill-header-contact, .skill-header, .skill-header-skills .skill-header-projects{
+    margin-top:100px;
+    font-size: 3em;
+  }
 
  .skill-header-skills, .skill-header-projects{
   text-align: center;
   color:black;
-  margin-top:70px;
   margin-bottom:10px;
   font-weight: 100;
   font-size: 3em;
@@ -943,13 +1041,8 @@ a.click-to-view-text:hover {
 
 
 /*  INDEX SECTION*/
-.name{
-  font-size: 3em;
-  margin-top: 55%;
-}
-.web{
-  font-size: 3em;
-}
+
+
 
 .get-in-touch{
   background-color:white;
@@ -1002,15 +1095,33 @@ a.click-to-view-text:hover {
 /*mobile-size*/
 @media screen and (max-width:500px)  {
 
+  .navbar-brand{
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: .4vw;
+}
+
+  #index{
+  background-image: url("lights.jpg");
+  background-attachment:fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-repeat: no-repeat;*/
+  width: 100%;
+  min-height: 100%;
+}
+
 
   /*ALL SITES */
   .skill-header-skills, .skill-header, .skill-header-projects{
     font-size:2.4em;
-    margin-top: 70px;
+    margin-top: 100px;
   }
   .skill-header-contact{
     font-size:2.4em;
-    margin-top: -30px;
+    margin-top: 100px;
   }
 
 
@@ -1034,7 +1145,7 @@ a.click-to-view-text:hover {
   /*about*/
   .div-box-projects{
     border-bottom: solid 1px #DBA24D;
-    margin-bottom:60px;
+    margin-bottom:45px;
     margin-top: 20px;
   }
 
@@ -1060,13 +1171,13 @@ a.click-to-view-text:hover {
   }
 
   .name{
-    font-size: 2.2em;
-    margin-top: 48%;
-    font-weight: 700;
+
+    margin-top: 42%;
+    font-weight: 400;
   }
   .web{
-    font-size: 2.1em;
-    font-weight: 700;
+
+    font-weight: 400;
   }
 
   .get-in-touch{
@@ -1131,8 +1242,9 @@ a.click-to-view-text:hover {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  padding: 100px 0;
+  padding-bottom: 240px;
   margin-bottom: 0px;
+  margin-top: -20px;
 }
 
 .contact-info{
@@ -1156,6 +1268,11 @@ a.click-to-view-text:hover {
   padding-bottom: 0px;
 
 }
+
+  .skill-header-skills, .skill-header, .skill-header-projects{
+    font-size:2.4em;
+    margin-top: 100px;
+  }
 
 }
 

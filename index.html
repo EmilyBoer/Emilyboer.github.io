@@ -1,471 +1,373 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- <EMILY MUST REMOVE START > -->
 
-<head>
-   <meta http-equiv="refresh" content="emilyboerner.com" />
-  <meta name="viewport" content="width=device-width" />
-  <meta name="format-detection" content="telephone=no" />
-  <meta charset="UTF-8">
+  <!doctype html>
+  <html class="no-js" lang="en">
 
-  <title>Emily Boerner Portfolio</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="bootstrap.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- <meta http-equiv="refresh" content="30"> -->
 
-  <link rel="shortcut icon" href="e4.png" type="image/x-icon">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-  <!--  my CSS -->
+    <link href="../public/assets/css/style.css" rel="stylesheet">
 
-  <link type="text/css" rel="stylesheet" href="default2.css"/>
+    <link href="../public/assets/css/emily.css" rel="stylesheet">
+    <link href="../public/assets/css/footer.css" rel="stylesheet">
+    <link href="../public/assets/css/nav.css" rel="stylesheet">
+    <link href="../public/assets/css/index.css" rel="stylesheet">
 
-  <!--  Raleway font -->
 
-  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-  <!--   Patua font  -->
 
-  <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
-
-  <!--  Social Media fonts  -->
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-  <script type="text/javascript" src="smoothscroll.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.js"</script>
-    <script type="text/javascript" src="owl.carousel.min.js"></script>
-
-    <script src='site.js'></script>
-
-    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:100,300,400,500,600,700,800" rel="stylesheet">
 
 
 
+    <title>{% if title is defined %}{{ title }} - {% endif %}{{ currentSite.name }}</title>
+    <meta name="description" content="{{ metaDescription|default('') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- ::TODO:: Place favicon.ico in the root directory -->
 
 
   </head>
 
-  <body>
+  <div class="section-one">
+   <div class="container-50">
+    <!-- <EMILY MUST REMOVE FINISH> -->
+
+      <a href="/" class="navbar-brand flex-grow-1"><img src="../public/assets/img/mya-logo.png" class="img-fluid" alt="mya logo"></a>
+      <header class="navbar navbar-expand d-flex justify-content-end">
+        <nav class="nav">
+          <a class="nav-link" href="/meetmya">Meet Mya</a>
+          <a class="nav-link" href="/our-clients">Our Clients</a>
+          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="/blog">Blog</a>
+          <a class="btn btn-primary" href="#">Request a Demo</a>
+        </nav>
+
+      </header>
+
+      <!-- {% extends "_layouts/default" %} -->
+
+      <!-- {% block main %} -->
+
+      <div class="page-header">
+        <h1 class="display-4">Your Recruiting<br> Team's Best Asset</h1>
+        <p class="lead">Augment human outreach, communication and<br> engagement at scale with a conversational AI assistant</p>
+        <a class="" href="#" role="button"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
 
 
 
-    <section id="index" class="index-section">
 
-      <div class="container-fluid">
-        <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="section-two">
 
-
-         <div class = "container">
-
-          <div class="nav-transition container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Emily Boerner</a>
-            </div>
-
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-              <ul class="nav navbar-nav navbar-right">
-                <li><a class="nav-list smoothScroll" href="#about">About</a></li>
-                <li><a class="nav-list smoothScroll" href="#skills">Skills</a></li>
-                <li><a class="nav-list smoothScroll" href="#projects">Projects</a></li>
-                <li><a class="nav-list smoothScroll" href="#contact">Contact</a></li>
-
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
+    <div class=" active">
+      <div class="offset-md-6 col-md-4">
+        <div class="text-group">
+          <h2>The Mya <br>Experience</h2>
+          <h5>Experience Overview</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur adipiscing elit. </p>
         </div>
-      </nav>
-      <!-- <header style="background-image: url('lights .jpg');"> -->
+      </div>
+    </div>
 
-      <div class = "container index-container ">
+  </div>
 
-        <div class = "row">
-          <div class ="col-md-12">
-            <p class="name">Emily Boerner</p>
-            <p class="web">Web Development </p>
+
+
+
+  <div class="section-three">
+   <div class="container-50">
+    <div class="row">
+
+      <div class=" col-md text-center">
+        <div class="text-group">
+          <h5>Client Impact</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet. consectetur adipiscing elit.Lorem ipsum dolor sit amet </p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          <p class="link"><a href="">Read the Case Study</a></p>
+        </div>
+      </div>
+
+
+      <div class=" col-md text-center">
+        <div class="quote-group border-l">
+
+          <h1>“Lorem ipsum dolor sit amet,  adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor ut.”</h1>
+          <p class="name ">-John Doe</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row logo-group ">
+      <div class="col-sm">
+        <div class=""><img style="padding-top:9px;" src="../public/assets/img/company-logos/L'Oreal.png" class="img-fluid" alt="Responsive image"></div>
+
+      </div>
+      <div class="col-sm">
+        <div class=""><img style="padding-top:7px;" src="../public/assets/img/company-logos/Deloitte.png" class="img-fluid" alt="Responsive image"></div>
+
+      </div>
+      <div class="col-sm">
+        <div class=""><img src="../public/assets/img/company-logos/Adecco.png" class="img-fluid" alt="Responsive image"></div>
+
+      </div>
+      <div class="col-sm">
+        <div class=""><img src="../public/assets/img/company-logos/Advantage Solutions.png" class="img-fluid" alt="Responsive image"></div>
+
+      </div>
+      <div class="col-sm">
+        <div class=""><img style="padding-top:4px;" src="../public/assets/img/company-logos/Sevenstep.png" class="img-fluid" alt="Responsive image"></div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-four">
+ <div class="container-50">
+  <div class="row">
+
+    <div class="col-md text-center">
+      <div class=""><img src="../public/assets/img/chat-placeholder.png" class="img-fluid" alt="Responsive image"></div>
+    </div>
+
+    <div class="col-md text-center">
+      <div class="border-2">
+        <h1>Header Goes Here</h1>
+        <p>Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id leo in vitae turpis massa sed elementum tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="section-five">
+
+  <div class="row">
+
+    <div class=" col-md-6 text-center text-col">
+      <h1 class>About Us <br>Overview</h1>
+      <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+      <p ><a class="about-link" href="#aboutus">About Us</a></p>
+      <h5 class="join">Join the Team Call to Action</h5>
+      <p  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+      <p ><a class=careers-link" href="">Careers at Mya</a></p>
+    </div>
+
+    <div class="col-md-6 text-center phone-col">
+      <div class=""><img src="../public/assets/img/Purple-Phone.png" class="img-fluid" alt="Responsive image"></div>
+    </div>
+    
+  </div>
+</div> <!-- end section 5 -->
+
+
+
+
+
+<div class="section-six">
+
+  <div class="row news-and-events">
+    <div class=" col-md-6">
+      <h5>News & Events</h5>
+
+    </div>
+
+  </div>
+
+  <div class="row news-group">
+
+    <div class="col-md-6  ">
+
+      <div class="border-1 ">
+        <h1>Featured Press <br> Mention</h1>
+        <p class="date">JANUARY 1, 2019 PRESS COVERAGE</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+
+      <div class="border-1 ">
+        <h1>Featured Press <br> Mention</h1>
+        <p class="date">JANUARY 1, 2019 PRESS COVERAGE</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+
+    </div>
+
+    <div class=" col-md-6 ">
+
+      <div class="border-1 ">
+        <h1>Featured Press <br> Mention</h1>
+        <p class="date">JANUARY 1, 2019 PRESS COVERAGE</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+
+      <div class="border-1 ">
+        <h1>Featured Press <br> Mention</h1>
+        <p class="date">JANUARY 1, 2019 PRESS COVERAGE</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+    </div>
+
+    
+  </div>
+</div> <!-- end section 6 -->
+
+
+
+
+
+
+<div class="section-seven">
+
+  <div class="row top-group">
+
+    <div class=" col-md-2 ">
+      <h1 class="">Call to <br> Action<br>Header</h1>
+    </div>
+
+    <div class="offset-1 col-md-4 ">
+      <p class="lead ">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Donec <br>ultrices tristique consequat.</p>
+      <a class="btn btn-primary btn-md" href="#" role="button">Request a Demo</a>
+    </div>
+
+    <div class="contact col-md-4 ">
+
+      <h5 class="contact-us">Contact Us</h5>
+
+      <div class="row">
+        <div class=" col-md-6 ">
+          <p class="sales">Sales</p>
+          <p class="sales-email ">sales@sales.com</p>
+          <p class="sales-number ">555.555.5555</p>
+        </div>
+        <div class=" col-md-6 ">
+          <p class="sales ">Support</p>
+          <p class="sales-email ">sales@sales.com<p>
           </div>
-        </div>
+        </div> <!-- end row  -->
 
-        <div class='row'>
-         <div class="col-md-5 col-sm-5 col-xs-4">
-         </div> <!-- end column -->
-
-         <div class="col-md-2 col-sm-2 col-xs-4">
-          <div class= "div-box">
+        <div class="row">
+          <div class=" col-md-12">
+            <h5 class="more-options">More Contact Options &nbsp;<i class="fas fa-chevron-right"></i></h5>
           </div>
-        </div> <!-- end column -->
+        </div> <!-- end row -->
+      </div> <!-- end col-md-5  -->
 
-        <div class="col-md-5 col-sm-5 col-xs-4">
-        </div> <!-- end column -->
+
+    </div> <!-- end row  -->
+
+
+
+
+    <div class="bottom-group">
+
+     <div class="row footer-group-left">
+
+      <div class="col-md-2 mya-systems">    
+        <p href="#">Mya Systems</p>
       </div>
 
-      <ul class="center-list">
-
-        <li class="center"><a class ="center-button" href ="mailto:Emily.boerner@gmail.com"><button class='btn get-in-touch'>Get in Touch</button></a></li>
-      </ul>
-
-
-
-    </div>
-  </header><!-- end header -->
-
-</section>
-
-
-<section id="about" class="about-section">
-  <div class = "row">
-    <div class = "container">
-      <div class="col-md-12">
-        <h1 class= "skill-header">Pleasure to meet you.</h1>
+      <div class="col-md-2 address"> 
+        <p href="#">27 Maiden Lane &#183; Suite 300<br> San Francisco, CA &#183; 94108</p>
       </div>
-    </div>
-  </div>
-  <div class='row'>
-   <div class="col-md-5 col-sm-4 col-xs-4">
-   </div> <!-- end column -->
-   <div class="col-md-2 col-sm-4 col-xs-4">
-    <div class= "div-box">
-    </div>
-  </div> <!-- end column -->
-  <div class="col-md-5 col-sm-4 col-xs-4">
-  </div> <!-- end column -->
-</div> <!-- end row -->
+
+
+
+
+
+<div class=" col-md-8">
+  <ul class=footer-group-right>
+    <li><a href="#"> Careers </a></li>
+    <li><a href="#"> Press </a></li>
+    <li><a href="#"> Events </a></li>
+    <li><a href="#"> Request a Demo</a></li>
+    <li><a href="#"> Privacy </a></li>
+    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+  </ul>
 </div>
 
-<div class = "row">
-  <div class = "container project-container about-container">
-    <div class="col-md-12">
 
-      <div class = "container">
-        <div class=" center-photo col-md-5 col-sm-5 col-xs-12">
-          <img class="head-shot img-responsive" src="compic.png"></img>
-        </div>
+</div> <!-- end footer group -->
+</div> <!-- end footer group -->
 
-
-        <div class="col-md-7 col-sm-7 col-xs-12">
-          <p class="bio">
-          </p>
-          <p class="bio">
-            My name is Emily and I'm a Web Developer with a passion for learning.
-          </p>
-          <p class="bio">
-            When I'm not building websites I'm reading, sewing or watering my many plants. Check out my skills below.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="row">
+  <div class="all-rights-reserved offset-8 col-md-4 ">
+   &#169 2018 Mya Systems, Inc. All Rights Reserved.
+ </div>
 </div>
 </div>
 </div>
-</section>
 
-<section id="skills" class="skills-section page-scroll">
-  <div class = "container project-container skills-container">
-    <div class="col-md-12">
-      <h1 class= "skill-header-skills">Let's build something together.</h1>
-      <h1 class= "skill-sub-header"></h1>
-      <div class='row'>
-       <div class="col-md-5 col-sm-4 col-xs-4">
-       </div> <!-- end column -->
-       <div class="col-md-2 col-sm-4 col-xs-4">
-        <div class= "div-box-skills">
-        </div>
-      </div> <!-- end column -->
-      <div class="col-md-5 col-sm-4 col-xs-4">
-      </div> <!-- end column -->
-    </div> <!-- end row -->
-  </div>
+
+</div> <!-- end section seven -->
+
+
+
+<!-- {% endblock %} -->
+
+
+<!-- <div class="row"> -->
+
+
+
 </div>
 
-<div class = "row">
-  <div class = "container">
-    <div class="col-md-12">
-    </div>
-    <div class="row language-divs">
-      <div class="col-md-4 col-sm-6 col-xs-6 languages">
-        <i class="fa fa-code"></i>
-        <h1 class="language-text">HTML/CSS</h1>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-6 languages">
-        <i class="fa  fa-cogs"></i>
-        <h1 class="language-text">JAVASCRIPT</h1>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-6 languages">
-        <i class="fa fa-book"></i>
-        <h1 class="language-text">JQUERY</h1>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-6 languages">
-        <i class="fa fa-map-o"></i>
-        <h1 class="language-text">REACTJS</h1>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-6 languages">
-        <i class="fa fa-paint-brush"></i>
-        <h1 class="language-text">ILLUSTRATOR</h1>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-6 languages">
-        <i class="fa fa-picture-o"></i>
-        <h1 class="language-text">PHOTOSHOP</h1>
-      </div>
-    </div>
-  </div>
 </div>
-</section>
+</div> <!-- end section seven -->
+<!-- {% endblock %} -->
 
-<section>
-
-
-
-  <section id="projects" class="page-scroll project-section">
-    <div class = "row">
-      <div class = "container">
-        <div class="col-md-12">
-          <h1 class= "skill-header-projects">Check out my work.</h1>
-          <!-- <span class="sub-cat-site-caption-1"> (HTML/CSS, JavaScript & Bootstrap)</span> -->
-        </div>
-      </div>
-    </div>
-    <div class='row'>
-     <div class="col-md-5 col-sm-4 col-xs-4">
-     </div> <!-- end column -->
-     <div class="col-md-2 col-sm-4 col-xs-4">
-      <div class= "div-box-projects">
-      </div>
-    </div> <!-- end column -->
-    <div class="col-md-5 col-sm-4 col-xs-4">
-    </div> <!-- end column -->
-  </div> <!-- end row -->
-</div>
-
-<div class="owl-carousel owl-theme">
-
-  <div class="item">
-   <div class="center"> 
-    <h3 class="project-name">Camp Old Navy </h3>
-    <h3 class="sub-cat-site-caption2">Responsive, expanding, smooth-scrolling splash page for Camp Old Navy.</h3>
-  </div> <!-- end center div -->
-
-  <div class="project_container">
-    <div class="project_media">. 
-      <img class="project-image" src="campoldnavy.png"></img>
-
-      <div class='overlay'>
-        <a class="click-to-view-text" target="_blank" href="http://oldnavy.gap.com/Asset_Archive/ONWeb/content/pages/campOldNavy/index.html">CLICK TO VIEW</a>
-      </div><!-- end overlay -->
-
-    </div> <!-- end project media -->
-  </div> <!-- end project container -->
-
-</div> <!-- end item-->
-
- <div class="item">
-   <div class="center"> 
-    <h3 class="project-name">Old Navy Recruitment Site</h3>
-    <h3 class="sub-cat-site-caption2">Recruitment splash page with owl carousel plugin and navigation overlay.</h3>
-  </div> <!-- end center div -->
-
-  <div class="project_container">
-    <div class="project_media">
-      <img class="project-image" src="recruitment-site.png"></img>
-
-      <div class='overlay'>
-        <a class="click-to-view-text" target="_blank" href="http://emilyboer.github.io/Recruitment-Feed-/">CLICK TO VIEW</a>
-      </div><!-- end overlay -->
-
-    </div> <!-- end project media -->
-  </div> <!-- end project container -->
-
-</div> <!-- end item-->
+<!-- <EMILY MUST REMOVE START> -->
 
 
-  <div class="item">
-   <div class="center"> 
-    <h3 class="project-name">Catherine Byun Illustrations</h3>
-    <h3 class="sub-cat-site-caption2">A customized, responsive portfolio site of illustrations, renderings and sketches.</h3>
-  </div> <!-- end center div -->
+ <script src="../public/assets/js/vendor/modernizr-3.6.0.min.js"></script>
 
-  <div class="project_container">
-    <div class="project_media">
-      <img class="project-image" src="cat-site.png"></img>
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-      <div class='overlay'>
-        <a class="click-to-view-text" target="_blank" href="http://catherinebyun.com/">CLICK TO VIEW</a>
-      </div><!-- end overlay -->
-
-    </div> <!-- end project media -->
-  </div> <!-- end project container -->
-
-</div> <!-- end item-->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
-  <div class="item">
-   <div class="center"> 
-    <h3 class="project-name">Italian Homemade Company</h3>
-    <h3 class="sub-cat-site-caption2">Restaurant site with Google maps embed and responsive digital menu.</h3>
-  </div> <!-- end center div -->
-
-  <div class="project_container">
-    <div class="project_media">
-      <img class="project-image" src="italian-homemade.png"></img>
-
-      <div class='overlay'>
-        <a class="click-to-view-text" target="_blank" href="http://emilyboer.github.io/Italian-Homemade-Company/">CLICK TO VIEW</a>
-      </div><!-- end overlay -->
-
-    </div> <!-- end project media -->
-  </div> <!-- end project container -->
-
-</div> <!-- end item-->
-
- <div class="item">
-   <div class="center"> 
-    <h3 class="project-name">Old Navy UAE</h3>
-    <h3 class="sub-cat-site-caption3" style=" max-width:900px;" >Old Navy site for UAE with responsive image gallery, Google maps embed and data translation for Arabic and English.</h3>
-  </div> <!-- end center div -->
-
-  <div class="project_container">
-    <div class="project_media">
-      <img class="project-image" src="OldnavyUAE.png"></img>
-
-      <div class='overlay'>
-        <a class="click-to-view-text" target="_blank" href="http://oldnavy.gap.com/Asset_Archive/ONWeb/content/pages/uae/index.html">CLICK TO VIEW</a>
-      </div><!-- end overlay -->
-
-    </div> <!-- end project media -->
-  </div> <!-- end project container -->
-
-</div> <!-- end item-->
+ <script src="../public/assets/js/slider-js/res/jquery-2.1.4.js"></script>
+ <script src="../public/assets/js/slider-js/res/hammer.min.js"></script>
+ <script src="../public/assets/js/slider-js/res/mousewheel.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/velocity/1.2.2/velocity.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/velocity/1.2.2/velocity.ui.min.js"></script>
 
 
-
-
- <div class="item">
-   <div class="center"> 
-    <h3 class="project-name">Old Navy Mexico Jeans Splash</h3>
-    <h3 class="sub-cat-site-caption2">Jeans education splash for Mexico with four auto-playing, repsonsive carousels.</h3>
-  </div> <!-- end center div -->
-
-  <div class="project_container">
-    <div class="project_media">
-      <img class="project-image" src="oldnavyjeanssplash.png"></img>
-
-      <div class='overlay'>
-        <a class="click-to-view-text" target="_blank" href="http://oldnavy.gap.com/Asset_Archive/ONWeb/content/pages/mexico/splash_jeans/splash_jeans.html?mlink=10767971,10767971,mx_hp_edu_jeans_a&clink=10767971">CLICK TO VIEW</a>
-      </div><!-- end overlay -->
-
-    </div> <!-- end project media -->
-  </div> <!-- end project container -->
-
-</div> <!-- end item-->
-
-</div> <!-- end owl -->
-
-</section>
-
-
-
-
-<!-- contact section -->
-
-<section id="contact" class="contact-section ">
-  <div class = "row">
-    <div class = "container">
-      <div class="col-md-12">
-        <h1 class= "skill-header-contact">Drop me a line.</h1>
-      </div>
-    </div>
-  </div>
-  <div class='row'>
-   <div class="col-md-5 col-sm-4 col-xs-4">
-   </div> <!-- end column -->
-   <div class="col-md-2 col-sm-4 col-xs-4">
-    <div class= "div-box-contact">
-    </div>
-  </div> <!-- end column -->
-  <div class="col-md-5 col-sm-4 col-xs-4">
-  </div> <!-- end column -->
-</div> <!-- end row -->
-</div>
-<div class = "row">
-  <div class = "container contact-container">
-    <div class="col-md-6">
-      <p class= "center"><span class="fa fa-phone-square"></span>
-        <a class="contact-info2">610.513.8501</a></p>
-      </div>
-
-      <div class="col-md-6">
-        <p class= "center"><span class="fa fa-envelope"></span>
-         <a href="mailto:Emily.boerner@gmail.com" class="contact-info">Emily.boerner@gmail.com</a></p>
-       </div>
-
-     </div>
-     <div class='row'>
-      <div class="col-md-12">
-        <ul class="icons">
-          <li class="socialmedia-icons space github"> <a href="https://github.com/EmilyBoer" target="_blank"><i class="fa fa-github"></i></a></li>
-
-          <li class="socialmedia-icons space"> <a href="https://www.linkedin.com/profile/view?id=69897044&trk=hp-identity-photo" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-
-          <li class="socialmedia-icons space"> <a href="https://twitter.com/EmilySBoerner" target="_blank"><i class="fa fa-twitter"></i></a></li>
-
-          <li class= "socialmedia-icons"> <a href="https://www.facebook.com/emily.boerner.90" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        </ul>
-
-      </div> <!-- end column -->
-    </div> <!-- end row -->
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+ <script>
 
 
 
 
 
+ </script>
+
+
+ <!--  <link href="" rel="stylesheet"> -->
+
+ <!--  {% include '_includes/google-analytics' %} -->
 </body>
 
-
-<footer>
-</footer>
-
-<!-- Latest compiled and minified JavaScript -->
-
-<!-- jQuery -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script src="photos.js"></script>
-<script src="test.js"></script>
-<script src="jquery.easing.min.js"></script>
-<script src="scrollNav.js/jquery.scrollNav.min.js"></script>
-<script src="scrollNav.js/jquery.scrollNav.js"></script>
-
-<script src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
-
-<script src="owl.carousel.min.js"></script>
-
-
-
-</body>
 </html>
 
-
-
-
-
-
+<!-- <EMILY MUST REMOVE FINISH>

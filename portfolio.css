@@ -632,6 +632,21 @@ div.project-border {
     margin: auto;
   }
 
+  fa-2x {
+    font-size: 3em;
+    color: black;
+  }
+
+  .owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+    color: gray;
+    text-decoration: none;
+}
+
+    fa-2x:hover {
+   background-color:transparent;
+  }
+
   .name-container {
     position: relative;
   }

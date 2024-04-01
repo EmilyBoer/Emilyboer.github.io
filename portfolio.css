@@ -539,6 +539,7 @@ div.owl-dot {
   position: absolute;
   top: 35%;
   background: rgba(255, 255, 255, 0.4);
+  color:black;
 }
 
 .fa-2x {

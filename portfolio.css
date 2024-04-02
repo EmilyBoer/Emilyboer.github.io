@@ -541,6 +541,11 @@ div.owl-dot {
   background: rgba(255, 255, 255, 0.4);
 }
 
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+  color: black;
+}
+
 .fa-2x {
   font-size: 3em;
   color: black;

@@ -541,11 +541,6 @@ div.owl-dot {
   background: rgba(255, 255, 255, 0.4);
 }
 
-.owl-theme .owl-nav [class*="owl-"]:hover {
-  background: transparent;
-  color: black;
-}
-
 .fa-2x {
   font-size: 3em;
   color: black;
@@ -561,6 +556,7 @@ div.owl-dot {
 .owl-carousel .owl-nav .owl-next:hover {
   color: gray;
   background-color: transparent;
+  background: transparent;
 }
 
 .owl-carousel .owl-nav .owl-prev {
@@ -569,6 +565,11 @@ div.owl-dot {
 }
 .owl-carousel .owl-nav .owl-next {
   right: 10px;
+  color: black;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
   color: black;
 }
 
@@ -726,8 +727,20 @@ div.project-border {
 
   .owl-carousel .owl-nav .owl-prev,
   .owl-carousel .owl-nav .owl-next {
-    top: 30%;
+    display: none;
   }
+
+  .fa-2x {
+    font-size: 2em;
+    color: black;
+  }
+
+  .fa-2x:hover {
+    font-size: 2em;
+    color: gray;
+    background-color: transparent;
+  }
+
   .owl-carousel .owl-nav .owl-prev {
     left: -10px;
   }
@@ -761,6 +774,11 @@ div.project-border {
 
   .owl-carousel {
     margin-top: 0px;
+  }
+
+  /*TAKE THIS OUT TO REINSTATE DOTS*/
+  .owl-nav {
+    display: none;
   }
 
   .owl-prev,
